@@ -1,0 +1,4 @@
+Allegro5 initialized
+Game begin
+Game initialized
+Game end

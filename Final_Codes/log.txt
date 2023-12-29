@@ -1,0 +1,34 @@
+There are total 1 supported mouse buttons
+Allegro5 initialized
+loaded font: Assets/Minecraft.ttf with size 30
+loaded audio: Assets/Music/original_theme.ogg
+loaded audio: Assets/Music/pacman-chomp.ogg
+loaded audio: Assets/Music/pacman_death.ogg
+Menu scene created
+Change scene from (unnamed) to Menu
+loaded image: ./Assets/settings.png
+loaded image: ./Assets/settings2.png
+loaded image: Assets/title.png
+Game initialized
+Game start event loop
+Key with keycode 67 down
+Start scene created
+Change scene from Menu to Start
+Creating from default map. row = 30 col = 36
+loaded image: Assets/pacman_move.png
+loaded image: Assets/pacman_die.png
+creating ghost 0
+
+loaded image: Assets/ghost_flee.png
+loaded image: Assets/ghost_dead.png
+loaded image: Assets/ghost_move_red.png
+Key with keycode 4 down
+Key with keycode 19 down
+Key with keycode 4 down
+Key with keycode 23 down
+Key with keycode 4 down
+Key with keycode 23 down
+Key with keycode 1 down
+Key with keycode 19 down
+Window close button clicked
+Game end
