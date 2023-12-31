@@ -18,7 +18,7 @@
 #include "scene_game.h" 
 #include "scene_menu.h"
 /* global variables*/
-const int FPS = 60;
+const int FPS = 144;
 const int SCREEN_W = 800;
 const int SCREEN_H = 800;
 const int RESERVE_SAMPLES = 4;

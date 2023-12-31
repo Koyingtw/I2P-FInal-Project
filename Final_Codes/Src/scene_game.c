@@ -14,7 +14,7 @@
 
 // TODO-HACKATHON 2-0: Create one ghost (done)
 // Just modify the GHOST_NUM to 1
-#define GHOST_NUM 1
+#define GHOST_NUM 2
 // TODO-GC-ghost: create a least FOUR ghost!
 /* global variables*/
 extern const uint32_t GAME_TICK_CD;

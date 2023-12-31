@@ -34,6 +34,7 @@ Ghost* ghost_create(int flag) {
 	if (!ghost)
 		return NULL;
 
+
 	ghost->go_in_time = GAME_TICK; 
 	ghost->typeFlag = flag;
 	ghost->objData.Size.x = block_width;
@@ -61,6 +62,7 @@ Ghost* ghost_create(int flag) {
 		ghost->objData.Coord.y = cage_grid_y;
 		ghost->move_sprite = load_bitmap("Assets/ghost_move_pink.png");
 		ghost->move_script = &ghost_move_script_shortest_path;
+		break;
 	default:
 		ghost->objData.Coord.x = cage_grid_x;
 		ghost->objData.Coord.y = cage_grid_y;
@@ -167,7 +169,7 @@ void printGhostStatus(GhostStatus S) {
 		break;
 	}
 }
-bool ghost_movable(const Ghost* ghost, const Map* M, Directions targetDirec, bool room) {
+bool ghost_movable(const Ghost* ghost, const Map* M, Directions targetDirec, bool disallow_room) {
 	// TODO-HACKATHON 2-3: Determine if the current direction is movable. (done)
 	// Basically, this is a ghost version of `pacman_movable`.
 	// So if you have finished (and you should), you can just "copy and paste"
@@ -195,7 +197,7 @@ bool ghost_movable(const Ghost* ghost, const Map* M, Directions targetDirec, boo
 		return false;
 	}
 
-	if (is_wall_block(M, x, y) || (room && is_room_block(M, x, y)))
+	if (is_wall_block(M, x, y) || (disallow_room && is_room_block(M, x, y)))
 		return false;
 
 	return true;
