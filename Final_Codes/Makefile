@@ -20,7 +20,7 @@ objects= main.o game.o ghost.o ghost_move_script.o map.o pacman_obj.o scene_game
 all: pacman 
 
 pacman: $(objects)
-	$(CC) -lm $(CCFLAGS) $(DBG) -o pacman $^
+	$(CC) -lm $(CCFLAGS) $(DBG) -o pacman $^ -lm
 
 %.o: $(SRC)/%.c $(SRC)/%.h
 	$(CC) -I$(INCLUDE) $(DBG) -c $< -o $@

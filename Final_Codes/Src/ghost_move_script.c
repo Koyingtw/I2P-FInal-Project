@@ -23,13 +23,13 @@ static void ghost_move_script_FREEDOM_random(Ghost* ghost, Map* M) {
 	// hint: see generateRandomNumber in utility.h
 
 	
-	static Directions proba[4]; // possible movement
-	int cnt = 0;
-	for (Directions i = 1; i <= 4; i++)
-		if (ghost_movable(ghost, M, i, !is_room_block(M, ghost->objData.Coord.x, ghost->objData.Coord.y))) 	proba[cnt++] = i;
-	ghost_NextMove(ghost, proba[generateRandomNumber(0, cnt)]);
+	// static Directions proba[4]; // possible movement
+	// int cnt = 0;
+	// for (Directions i = 1; i <= 4; i++)
+	// 	if (ghost_movable(ghost, M, i, !is_room_block(M, ghost->objData.Coord.x, ghost->objData.Coord.y))) 	proba[cnt++] = i;
+	// ghost_NextMove(ghost, proba[generateRandomNumber(0, cnt)]);
 
-	// TODO-GC-random_movement: (Not in Hackathon) 
+	// TODO-GC-random_movement: (Not in Hackathon) (done)
 	// Description:
 	// For red(Blinky) ghost, we ask you to implement an random strategy ghost, 
 	// which means moving in random direction.
@@ -37,25 +37,33 @@ static void ghost_move_script_FREEDOM_random(Ghost* ghost, Map* M) {
 	// (The code above DO perform walking back and forth.)
 	// Replace the above code by finish followings.
 	// hint: record the previous move, and skip it when adding direction into array proba
-	/*
-	Direction counter_one = RIGHT;
+	
+	Directions counter_one = RIGHT;
 	switch(ghost->objData.preMove) {
 		case RIGHT:
 			counter_one = LEFT;
-		case ...
+			break;
+		case LEFT:
+			counter_one = RIGHT;
+			break;
+		case UP:
+			counter_one = DOWN;
+			break;
+		case DOWN:
+			counter_one = UP;
+			break;
 	}
 
 	static Directions proba[4]; // possible movement
 	int cnt = 0;
 	for (Directions i = 1; i <= 4; i++)
-		if (i != counter_one && ghost_movable(...)) 	proba[cnt++] = i;
+		if (i != counter_one && ghost_movable(ghost, M, i, 1)) 	proba[cnt++] = i;
 	if (cnt >= 1) {
-		ghost_NextMove(ghost, proba[generateRandomNumber(...)]);
+		ghost_NextMove(ghost, proba[generateRandomNumber(0, cnt)]);
 	}
 	else { // for the dead end case
-		ghost_NextMove(ghost, ...);
+		ghost_NextMove(ghost, counter_one);
 	}
-	*/
 }
 
 static void ghost_move_script_FREEDOM_shortest_path(Ghost* ghost, Map* M, Pacman* pman)
@@ -173,7 +181,7 @@ void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman) {
 }
 
 void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman) {
-	// TODO-GC-movement: do a little modification on shortest path move script
+	// TODO-GC-movement: do a little modification on shortest path move script (done)
 	// Since always shortest path strategy is too strong, player have no chance to win this.
 	// hint: Do shortest path sometime and do random move sometime.
 	if (!movetime(ghost->speed))
@@ -185,8 +193,13 @@ void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman) {
 			if (al_get_timer_count(game_tick_timer) - ghost->go_in_time > GO_OUT_TIME)
 				ghost->status = GO_OUT;
 			break;
-		case FREEDOM:
-			ghost_move_script_FREEDOM_shortest_path(ghost, M, pacman);
+		case FREEDOM: 
+			if (generateRandomNumber(0, 1) == 0) { // 50% 機率選擇最短路徑
+				ghost_move_script_FREEDOM_shortest_path(ghost, M, pacman);
+			} 
+			else { // 50% 機率選擇隨機移動
+				ghost_move_script_FREEDOM_random(ghost, M);
+			}
 			break;
 		case GO_OUT:
 			ghost_move_script_GO_OUT(ghost, M);

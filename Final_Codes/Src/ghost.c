@@ -47,7 +47,7 @@ Ghost* ghost_create(int flag) {
 	ghost->flee_sprite = load_bitmap("Assets/ghost_flee.png");
 	ghost->dead_sprite = load_bitmap("Assets/ghost_dead.png");
 
-	// TODO-GC-ghost: Create other type ghost, load corresponding sprites.
+	// TODO-GC-ghost: Create other type ghost, load corresponding sprites. (done)
 	// TODO-IF: You may design your own special tracking rules.
 	switch (ghost->typeFlag) {
 	case Blinky:
@@ -61,6 +61,20 @@ Ghost* ghost_create(int flag) {
 		ghost->objData.Coord.x = room_grid_x;
 		ghost->objData.Coord.y = room_grid_y;
 		ghost->move_sprite = load_bitmap("Assets/ghost_move_pink.png");
+		ghost->move_script = &ghost_move_script_shortest_path;
+		break;
+	case Inky:
+		// *load move script of shortest_path
+		ghost->objData.Coord.x = room_grid_x;
+		ghost->objData.Coord.y = room_grid_y;
+		ghost->move_sprite = load_bitmap("Assets/ghost_move_blue.png");
+		ghost->move_script = &ghost_move_script_shortest_path;
+		break;
+	case Clyde:
+		// *load move script of shortest_path
+		ghost->objData.Coord.x = room_grid_x;
+		ghost->objData.Coord.y = room_grid_y;
+		ghost->move_sprite = load_bitmap("Assets/ghost_move_orange.png");
 		ghost->move_script = &ghost_move_script_shortest_path;
 		break;
 	default:
