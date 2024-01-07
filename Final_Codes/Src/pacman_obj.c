@@ -66,6 +66,7 @@ Pacman* pacman_create() {
 	Pacman* pman = (Pacman*)malloc(sizeof(Pacman));
 	if (!pman)
 		return NULL;
+	pman->objData.moveCD = 0;
 	pman->objData.Coord.x = 24;
 	pman->objData.Coord.y = 24;
 	pman->objData.Size.x = block_width;
@@ -94,56 +95,70 @@ void pacman_destroy(Pacman* pman) {
 
 
 void pacman_draw(Pacman* pman) {
-	// TODO-GC-animation: Draw Pacman and animations
+	// TODO-GC-animation: Draw Pacman and animations (done)
 	// hint: use pman->objData.moveCD to determine which frame of the animation to draw
 	RecArea drawArea = getDrawArea((object *)pman, GAME_TICK_CD);
 
 	//Draw default image
-	al_draw_scaled_bitmap(pman->move_sprite, 0, 0,
-		16, 16,
-		drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
-		draw_region, draw_region, 0
-	);
-	
+	game_log("pacman->objData.moveCD: %d\n", pman->objData.moveCD);
+	if (pman->objData.preMove == NONE) {
+		al_draw_scaled_bitmap(pman->move_sprite, 0, 0,
+			16, 16,
+			drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
+			draw_region, draw_region, 0
+		);
+	}
 	int offset = 0;
 	if (!game_over) {
-		// TODO-GC-animation: We have two frames for each direction. You can use the value of pman->objData.moveCD to determine which frame of the animation to draw.
+		// TODO-GC-animation: We have two frames for each direction. You can use the value of pman->objData.moveCD to determine which frame of the animation to draw. (done)
 		// For example, if the value(mod 16) is less than 8, draw 1st frame. Otherwise, draw 2nd frame.
 		// But this frame rate may be a little bit too high. We can use % 32 and draw 1st frame if value is 0~15, and 2nd frame if value is 16~31.
-		/*
-		if(pman->objData.moveCD % 16 < 8){
-			offset = 0
+
+		offset = 0;
+		if((pman->objData.moveCD) >> 4 & 1){
+			offset = 16;
 		}
-		else if(pamn->objData.moveCD % 16 >= 8){
-			offset = 16
-		}
-		*/
+
+		
 		/*
 		NOTE: since modulo operation is expensive in clock cycle perspective (reference: https://stackoverflow.com/questions/27977834/why-is-modulus-operator-slow)
 			, you can use & (bitwise and) operator to determine a value is odd or even.
 			e.g. If (val & 1 == 1) is true then `val` is odd. If (val & 1 == 0) is false then `val` is even.
 			e.g. Similarly, if ((val>>4) & 1 == 0) is true then `val % 32` is 0~15, if ((val>>4) & 1 == 1) is true then `val % 32` is 16~31. 
 		*/
-		/*
+		
+		game_log("pman->objData.faceing: %d\n", pman->objData.facing);
 		switch(pman->objData.facing)
 		{
 		case LEFT:
-			al_draw_scaled_bitmap(pman->move_sprite, ... + offset, 0,
+			al_draw_scaled_bitmap(pman->move_sprite, 32 + offset, 0,
 				16, 16,
 				drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
 				draw_region, draw_region, 0
 			);
 			break;
-		case LEFT:
-			al_draw_scaled_bitmap(pman->move_sprite, ... + offset, 0,
+		case RIGHT:
+			al_draw_scaled_bitmap(pman->move_sprite, 0 + offset, 0,
 				16, 16,
 				drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
 				draw_region, draw_region, 0
 			);
 			break;
-		case ...
+		case UP:
+			al_draw_scaled_bitmap(pman->move_sprite, 64 + offset, 0,
+				16, 16,
+				drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
+				draw_region, draw_region, 0
+			);
+			break;
+		case DOWN:
+			al_draw_scaled_bitmap(pman->move_sprite, 96 + offset, 0,
+				16, 16,
+				drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
+				draw_region, draw_region, 0
+			);
+			break;
 		}
-		*/
 	}
 	else {
 		// TODO-GC-animation: Draw die animation(pman->die_sprite)
