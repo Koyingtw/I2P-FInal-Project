@@ -1,4 +1,4 @@
-There are total 5 supported mouse buttons
+There are total 1 supported mouse buttons
 Allegro5 initialized
 loaded font: Assets/Minecraft.ttf with size 30
 loaded audio: Assets/Music/original_theme.ogg
@@ -38,6 +38,5 @@ loaded image: Assets/ghost_flee.png
 loaded image: Assets/ghost_dead.png
 loaded image: Assets/ghost_move_orange.png
 Key with keycode 1 down
-Key with keycode 19 down
 Window close button clicked
 Game end

@@ -85,13 +85,11 @@ Pacman* pacman_create() {
 }
 
 void pacman_destroy(Pacman* pman) {	
-	// TODO-GC-memory: free pacman resource
-	/*
-		al_destroy_bitmap(pman->...);
-		al_destroy_timer(pman->...);
-		...
-		free(pman);
-	*/
+	// TODO-GC-memory: free pacman resource (done)
+	al_destroy_bitmap(pman->move_sprite);
+	al_destroy_bitmap(pman->die_sprite);
+	al_destroy_timer(pman->death_anim_counter);
+	free(pman);
 }
 
 
