@@ -198,10 +198,11 @@ static void draw(void) {
 	al_clear_to_color(al_map_rgb(0, 0, 0));
 
 	
-	// TODO-GC-scoring: Draw scoreboard, something your may need is sprinf();
-	/*
-		al_draw_text(...);
-	*/
+	// TODO-GC-scoring: Draw scoreboard, something your may need is sprinf(); 
+	char score[20];
+	sprintf(score, "Score: %d", game_main_Score);
+	al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+		100, 20, ALLEGRO_ALIGN_CENTER, score);
 
 	draw_map(basic_map);
 
@@ -217,6 +218,14 @@ static void draw(void) {
 		draw_hitboxes();
 	}
 
+}
+
+void game_update_scoreboard(int score) {
+	game_main_Score += score;
+
+	// draw scoreboard
+	char score_str[20];
+	sprintf(score_str, "Score: %d", game_main_Score);
 }
 
 static void draw_hitboxes(void) {

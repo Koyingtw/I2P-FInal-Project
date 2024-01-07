@@ -1,5 +1,6 @@
 #include <allegro5/allegro_primitives.h>
 #include "pacman_obj.h"
+#include "scene_game.h"
 #include "map.h"
 /* Static variables */
 static const int start_grid_x = 25, start_grid_y = 25;		// where to put pacman at the beginning
@@ -208,6 +209,7 @@ void pacman_eatItem(Pacman* pacman, const char Item) {
 	case '.':
 		stop_bgm(PACMAN_MOVESOUND_ID);
 		PACMAN_MOVESOUND_ID = play_audio(PACMAN_MOVESOUND, effect_volume);
+		game_update_scoreboard(10);
 		break;
 	// TODO-GC-PB: set pacman powerUp mode
 	/*
