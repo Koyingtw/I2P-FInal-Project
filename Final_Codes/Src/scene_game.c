@@ -143,20 +143,19 @@ static void status_update(void) {
 		}
 		else if (ghosts[i]->status == FREEDOM)
 		{
-			// TODO-GC-game_over: use `getDrawArea(..., GAME_TICK_CD)` and `RecAreaOverlap(..., GAME_TICK_CD)` functions to detect if pacman and ghosts collide with each other.
+			// TODO-GC-game_over: use `getDrawArea(..., GAME_TICK_CD)` and `RecAreaOverlap(..., GAME_TICK_CD)` functions to detect if pacman and ghosts collide with each other. (done)
 			// And perform corresponding operations.
 			// [NOTE] You should have some if-else branch here if you want to implement power bean mode.
 			// Uncomment Following Code
-			/*
-			if(!cheat_mode and collision of pacman and ghost)
-			{
-					game_log("collide with ghost\n");
-					al_rest(1.0);
-					pacman_die();
-					game_over = true;
-					break; // animation shouldn't be trigger twice.
+			const RecArea pmanHB = getDrawArea((object *)pman, GAME_TICK_CD);
+			const RecArea ghostHB = getDrawArea((object *)ghosts[i], GAME_TICK_CD);
+			if(!cheat_mode && RecAreaOverlap(&pmanHB, &ghostHB)) {
+				game_log("collide with ghost\n");
+				al_rest(1.0);
+				pacman_die();
+				game_over = true;
+				break; // animation shouldn't be trigger twice.
 			}
-			*/
 		}
 		else if (ghosts[i]->status == FLEE)
 		{
@@ -174,14 +173,24 @@ static void status_update(void) {
 static void update(void) {
 
 	if (game_over) {
-		// TODO-GC-game_over: start pman->death_anim_counter and schedule a game-over event (e.g change scene to menu) after Pacman's death animation finished
+		// TODO-GC-game_over: start pman->death_anim_counter and schedule a game-over event (e.g change scene to menu) after Pacman's death animation finished (done)
 		// hint: refer al_get_timer_started(...), al_get_timer_count(...), al_stop_timer(...), al_rest(...)
-		/*
-			// start the timer if it hasn't been started.
-			// check timer counter.
-			// stop the timer if counter reach desired time.
-			game_change_scene(...);
-		*/
+		// start the timer if it hasn't been started.
+		// check timer counter.
+		// stop the timer if counter reach desired time.
+		if (!al_get_timer_started(pman->death_anim_counter)) {
+			pman->death_anim_counter = al_create_timer(1.0f / 8.0f);
+			if (!pman->death_anim_counter)
+				game_abort("Error on create timer\n");
+			al_start_timer(pman->death_anim_counter);
+		}
+
+		if (al_get_timer_count(pman->death_anim_counter) >= 24) {
+			al_stop_timer(pman->death_anim_counter);
+			al_rest(1.0);
+			game_change_scene(scene_menu_create());
+			return;
+		}
 		return;
 	}
 

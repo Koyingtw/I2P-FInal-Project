@@ -165,6 +165,15 @@ void pacman_draw(Pacman* pman) {
 		// TODO-GC-animation: Draw die animation(pman->die_sprite)
 		// hint: instead of using pman->objData.moveCD, use pman->death_anim_counter to create animation.
 		// refer al_get_timer_count and al_draw_scaled_bitmap. Suggestion frame rate: 8fps.
+
+		int offset = al_get_timer_count(pman->death_anim_counter) / (2) * 16;
+
+
+		al_draw_scaled_bitmap(pman->die_sprite, 0 + offset, 0,
+			16, 16,
+			drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
+			draw_region, draw_region, 0
+		);
 	}
 }
 void pacman_move(Pacman* pacman, Map* M) {
@@ -229,4 +238,6 @@ void pacman_NextMove(Pacman* pacman, Directions next) {
 void pacman_die() {
 	// TODO-GC-game_over: play sound of pacman's death! see shared.c
 	// hint: check pacman_eatItem(...) above.
+	stop_bgm(PACMAN_MOVESOUND_ID);
+	PACMAN_MOVESOUND_ID = play_audio(PACMAN_DEATH_SOUND, effect_volume);
 }

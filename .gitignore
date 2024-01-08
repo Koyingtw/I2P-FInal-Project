@@ -53,3 +53,4 @@ dkms.conf
 
 pacman
 log.txt
+.DS_Store
