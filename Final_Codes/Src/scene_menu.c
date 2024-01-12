@@ -78,6 +78,7 @@ static void draw() {
 static void on_mouse_move(int a, int mouse_x, int mouse_y, int f) {
 	//	TODO-HACKATHON 3-7: Update button's status(hovered), and utilize the function `pnt_in_rect`, which you just implemented (done)
 	//	Uncomment and fill the code below
+	// if (buttonHover(btnSettings, mouse_x, mouse_y))
 	btnSettings.hovered = buttonHover(btnSettings, mouse_x, mouse_y);
 }
 
