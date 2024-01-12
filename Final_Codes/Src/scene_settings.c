@@ -24,7 +24,7 @@ Button btnCustomKeys;
 static void init() {
 	// TODO-Advance: button create
 
-	btnCustomKeys = button_create(730, 20, 50, 50, "./Assets/settings.png", "./Assets/settings2.png");
+	btnCustomKeys = button_create((SCREEN_W - 700) / 2, 50, 700, 100, "./Assets/custom_keys.png", "./Assets/custom_keys.png");
 }
 
 static void draw_scene_settings(void ){

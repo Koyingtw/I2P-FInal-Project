@@ -13,14 +13,9 @@ Game initialized
 Game start event loop
 Settings scene created
 Change scene from Menu to Settings
-loaded image: ./Assets/settings.png
-loaded image: ./Assets/settings2.png
+loaded image: ./Assets/custom_keys.png
+loaded image: ./Assets/custom_keys.png
 Settings scene created
 Change scene from Settings to Settings
-Key with keycode 67 down
-Settings scene created
-Change scene from Settings to Settings
-loaded image: ./Assets/settings.png
-loaded image: ./Assets/settings2.png
 Window close button clicked
 Game end
