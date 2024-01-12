@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "allegro_primitives.h": "c",
-        "allegro_image.h": "c"
+        "allegro_image.h": "c",
+        "scene_menu_object.h": "c",
+        "allegro_color.h": "c",
+        "scene_settings.h": "c",
+        "scene_menu.h": "c",
+        "scene_custom_keys.h": "c"
     }
 }

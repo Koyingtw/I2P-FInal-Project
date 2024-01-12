@@ -2,6 +2,12 @@
 // No need to do anything for this part. We've already done it for
 // you, so this 2 files is like the default scene template.
 #include "scene_settings.h"
+#include "scene_menu_object.h"
+#include "scene_custom_keys.h"
+#include <allegro5/allegro_color.h>
+#include <allegro5/allegro_primitives.h>
+
+
 
 // Variables and functions with 'static' prefix at the top level of a
 // source file is only accessible in that file ("file scope", also
@@ -13,7 +19,15 @@
 // TODO-IF: More variables and functions that will only be accessed
 // inside this scene. They should all have the 'static' prefix.
 
-static void draw(void ){
+Button btnCustomKeys;
+
+static void init() {
+	// TODO-Advance: button create
+
+	btnCustomKeys = button_create(730, 20, 50, 50, "./Assets/settings.png", "./Assets/settings2.png");
+}
+
+static void draw_scene_settings(void ){
 	al_clear_to_color(al_map_rgb(0, 0, 0));
 	al_draw_text(
 		menuFont,
@@ -23,6 +37,7 @@ static void draw(void ){
 		ALLEGRO_ALIGN_CENTER,
 		"<ENTER> Back to menu"
 	);
+	drawButton(btnCustomKeys);
 }
 
 static void on_key_down(int keycode) {
@@ -35,13 +50,26 @@ static void on_key_down(int keycode) {
 	}
 }
 
+static void on_mouse_move(int a, int mouse_x, int mouse_y, int f) {
+	btnCustomKeys.hovered = buttonHover(btnCustomKeys, mouse_x, mouse_y);
+}
+
+static void on_mouse_down() {
+	if (btnCustomKeys.hovered)
+		game_change_scene(scene_custom_keys_create());
+}
+
 // The only function that is shared across files.
 Scene scene_settings_create(void) {
 	Scene scene;
 	memset(&scene, 0, sizeof(Scene));
 	scene.name = "Settings";
-	scene.draw = &draw;
+	scene.draw = &draw_scene_settings;
+	scene.initialize = &init;
 	scene.on_key_down = &on_key_down;
+	scene.on_mouse_move = &on_mouse_move;
+	scene.on_mouse_down = &on_mouse_down;
+
 	// TODO-IF: Register more event callback functions such as keyboard, mouse, ...
 	game_log("Settings scene created");
 	return scene;
