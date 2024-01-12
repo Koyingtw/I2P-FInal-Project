@@ -38,7 +38,7 @@ static void on_key_down(int keycode) {
 Scene scene_custom_keys_create(void) {
 	Scene scene;
 	memset(&scene, 0, sizeof(Scene));
-	scene.name = "Settings";
+	scene.name = "Custom Keys";
 	scene.draw = &draw_scene_custom_keys;
 	scene.on_key_down = &on_key_down;
 
