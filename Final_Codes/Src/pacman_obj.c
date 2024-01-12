@@ -24,6 +24,8 @@ extern uint32_t GAME_TICK_CD;
 extern bool game_over;
 extern float effect_volume;
 
+bool first_frame = true;
+
 /* Declare static function */
 static bool pacman_movable(const Pacman* pacman, const Map* M, Directions targetDirec) {
 	// TODO-HACKATHON 1-2: Determine if the current direction is movable.
@@ -101,12 +103,14 @@ void pacman_draw(Pacman* pman) {
 	RecArea drawArea = getDrawArea((object *)pman, GAME_TICK_CD);
 
 	//Draw default image
-	if (pman->objData.preMove == NONE) {
+	if (first_frame) {
 		al_draw_scaled_bitmap(pman->move_sprite, 0, 0,
 			16, 16,
 			drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
 			draw_region, draw_region, 0
 		);
+		pman->objData.facing = RIGHT;
+		first_frame = false;
 	}
 	int offset = 0;
 	if (!game_over) {
