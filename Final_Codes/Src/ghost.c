@@ -143,15 +143,35 @@ void ghost_draw(Ghost* ghost) {
 		*/
 	}
 	else {
-		// TODO-GC-animation: ghost animation
+		// TODO-GC-animation: ghost animation (done)
 		// *draw ghost->move_sprite
-		/*
+
+		int offset = 0;
+		if (ghost->objData.moveCD >> 4 & 1)
+			offset = 16;
+
+
 		switch (ghost->objData.facing)
 		{
 		case LEFT:
-			...
+			bitmap_x_offset = 32;
+			break;
+		case RIGHT:
+			bitmap_x_offset = 0;
+			break;
+		case UP:
+			bitmap_x_offset = 64;
+			break;
+		case DOWN:
+			bitmap_x_offset = 96;
+			break;
 		}
-		*/
+
+		al_draw_scaled_bitmap(ghost->move_sprite, bitmap_x_offset + offset, 0,
+			16, 16,
+			drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
+			draw_region, draw_region, 0
+		);
 	}
 
 }

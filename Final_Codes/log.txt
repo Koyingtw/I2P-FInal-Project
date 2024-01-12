@@ -207,6 +207,218 @@ pacman->objData.moveCD: 0
 
 pman->objData.faceing: -1094795586
 
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: -1094795586
+
 Key with keycode 4 down
 pacman->objData.moveCD: 0
 
@@ -240,10 +452,6 @@ pacman->objData.moveCD: 0
 
 pman->objData.faceing: -1094795586
 
-pacman->objData.moveCD: 0
-
-pman->objData.faceing: -1094795586
-
 pacman->objData.moveCD: 64
 
 pman->objData.faceing: 3
@@ -280,19 +488,135 @@ pacman->objData.moveCD: 48
 
 pman->objData.faceing: 3
 
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 3
+
 pacman->objData.moveCD: 46
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 44
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 44
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 38
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
 
 pman->objData.faceing: 3
 
@@ -324,124 +648,16 @@ pacman->objData.moveCD: 24
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 22
-
-pman->objData.faceing: 3
-
 pacman->objData.moveCD: 20
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 18
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 14
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 10
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 2
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 64
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 58
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 56
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 54
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 52
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 50
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 44
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 42
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 40
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 34
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 32
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 30
+pacman->objData.moveCD: 20
 
 pman->objData.faceing: 3
 
 Key with keycode 23 down
-pacman->objData.moveCD: 28
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 26
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 24
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 22
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 20
-
-pman->objData.faceing: 3
-
 pacman->objData.moveCD: 18
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 16
 
 pman->objData.faceing: 3
 
@@ -449,7 +665,7 @@ pacman->objData.moveCD: 14
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 12
+pacman->objData.moveCD: 14
 
 pman->objData.faceing: 3
 
@@ -457,11 +673,15 @@ pacman->objData.moveCD: 10
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 8
+pacman->objData.moveCD: 10
 
 pman->objData.faceing: 3
 
 pacman->objData.moveCD: 6
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 4
 
 pman->objData.faceing: 3
 
@@ -485,11 +705,11 @@ pacman->objData.moveCD: 54
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 52
+pacman->objData.moveCD: 50
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 46
+pacman->objData.moveCD: 48
 
 pman->objData.faceing: 1
 
@@ -497,11 +717,15 @@ pacman->objData.moveCD: 44
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 44
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 38
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 40
 
 pman->objData.faceing: 1
 
@@ -545,10 +769,6 @@ pacman->objData.moveCD: 18
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 1
-
 pacman->objData.moveCD: 14
 
 pman->objData.faceing: 1
@@ -557,11 +777,15 @@ pacman->objData.moveCD: 12
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 8
+pacman->objData.moveCD: 10
 
 pman->objData.faceing: 1
 
 pacman->objData.moveCD: 8
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 6
 
 pman->objData.faceing: 1
 
@@ -609,15 +833,7 @@ pacman->objData.moveCD: 48
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 44
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 40
 
 pman->objData.faceing: 1
 
@@ -629,7 +845,119 @@ pacman->objData.moveCD: 36
 
 pman->objData.faceing: 1
 
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 16
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 1
+
 pacman->objData.moveCD: 36
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 30
 
 pman->objData.faceing: 1
 
@@ -657,10 +985,6 @@ pacman->objData.moveCD: 18
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 1
-
 pacman->objData.moveCD: 14
 
 pman->objData.faceing: 1
@@ -681,114 +1005,6 @@ pacman->objData.moveCD: 6
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 2
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 64
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 62
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 60
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 58
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 56
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 54
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 52
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 50
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 44
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 42
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 40
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 32
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 30
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 28
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 26
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 24
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 20
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 10
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 8
-
-pman->objData.faceing: 1
-
 pacman->objData.moveCD: 4
 
 pman->objData.faceing: 1
@@ -825,27 +1041,23 @@ pacman->objData.moveCD: 52
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 50
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 1
-
 pacman->objData.moveCD: 44
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 40
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 40
+pacman->objData.moveCD: 38
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 34
 
 pman->objData.faceing: 1
 
@@ -869,7 +1081,7 @@ pacman->objData.moveCD: 24
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 20
+pacman->objData.moveCD: 22
 
 pman->objData.faceing: 1
 
@@ -885,11 +1097,7 @@ pacman->objData.moveCD: 14
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 12
+pacman->objData.moveCD: 14
 
 pman->objData.faceing: 1
 
@@ -897,7 +1105,11 @@ pacman->objData.moveCD: 10
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 8
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 6
 
 pman->objData.faceing: 1
 
@@ -917,7 +1129,7 @@ pacman->objData.moveCD: 62
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 60
+pacman->objData.moveCD: 58
 
 pman->objData.faceing: 1
 
@@ -934,39 +1146,39 @@ pacman->objData.moveCD: 54
 pman->objData.faceing: 1
 
 pacman->objData.moveCD: 52
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 44
 
 pman->objData.faceing: 1
 
 Key with keycode 4 down
-pacman->objData.moveCD: 50
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 44
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 42
-
-pman->objData.faceing: 1
-
 pacman->objData.moveCD: 40
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 36
+pacman->objData.moveCD: 38
 
 pman->objData.faceing: 1
 
 pacman->objData.moveCD: 36
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 34
 
 pman->objData.faceing: 1
 
@@ -975,6 +1187,10 @@ pacman->objData.moveCD: 32
 pman->objData.faceing: 1
 
 pacman->objData.moveCD: 30
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 26
 
 pman->objData.faceing: 1
 
@@ -994,15 +1210,11 @@ pacman->objData.moveCD: 18
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 1
-
 pacman->objData.moveCD: 14
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 12
+pacman->objData.moveCD: 14
 
 pman->objData.faceing: 1
 
@@ -1018,9 +1230,125 @@ pacman->objData.moveCD: 6
 
 pman->objData.faceing: 1
 
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 1
+
 pacman->objData.moveCD: 2
 
 pman->objData.faceing: 1
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 38
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 3
 
 pacman->objData.moveCD: 64
 
@@ -1058,7 +1386,7 @@ pacman->objData.moveCD: 48
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 46
+pacman->objData.moveCD: 44
 
 pman->objData.faceing: 3
 
@@ -1066,7 +1394,7 @@ pacman->objData.moveCD: 44
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 40
 
 pman->objData.faceing: 3
 
@@ -1075,6 +1403,2764 @@ pacman->objData.moveCD: 40
 pman->objData.faceing: 3
 
 pacman->objData.moveCD: 36
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+Key with keycode 19 down
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 16
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 16
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 16
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 38
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 46
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 42
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 38
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 42
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 38
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 12
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 16
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+Key with keycode 4 down
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 4
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 46
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
 
 pman->objData.faceing: 3
 
@@ -1098,6 +4184,130 @@ pacman->objData.moveCD: 26
 
 pman->objData.faceing: 3
 
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 56
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 3
+
 pacman->objData.moveCD: 20
 
 pman->objData.faceing: 3
@@ -1118,7 +4328,11 @@ pacman->objData.moveCD: 10
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 8
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 6
 
 pman->objData.faceing: 3
 
@@ -1166,15 +4380,15 @@ pacman->objData.moveCD: 46
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 46
+pacman->objData.moveCD: 44
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 44
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 40
 
 pman->objData.faceing: 3
 
@@ -1186,7 +4400,7 @@ pacman->objData.moveCD: 36
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 36
+pacman->objData.moveCD: 34
 
 pman->objData.faceing: 3
 
@@ -1222,7 +4436,7 @@ pacman->objData.moveCD: 18
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 12
+pacman->objData.moveCD: 10
 
 pman->objData.faceing: 3
 
@@ -1230,11 +4444,11 @@ pacman->objData.moveCD: 10
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 8
+pacman->objData.moveCD: 6
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 6
+pacman->objData.moveCD: 4
 
 pman->objData.faceing: 3
 
@@ -1258,10 +4472,6 @@ pacman->objData.moveCD: 58
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 56
-
-pman->objData.faceing: 3
-
 pacman->objData.moveCD: 54
 
 pman->objData.faceing: 3
@@ -1274,23 +4484,11 @@ pacman->objData.moveCD: 50
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 3
-
 pacman->objData.moveCD: 44
 
 pman->objData.faceing: 3
 
 pacman->objData.moveCD: 42
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 38
 
 pman->objData.faceing: 3
 
@@ -1331,18 +4529,6 @@ pacman->objData.moveCD: 20
 pman->objData.faceing: 3
 
 pacman->objData.moveCD: 18
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 14
-
-pman->objData.faceing: 3
-
-pacman->objData.moveCD: 12
 
 pman->objData.faceing: 3
 
@@ -1350,116 +4536,376 @@ pacman->objData.moveCD: 10
 
 pman->objData.faceing: 3
 
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 3
+
 pacman->objData.moveCD: 2
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 64
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 58
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 56
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 54
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 52
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 50
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 46
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 46
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 44
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 38
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 36
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 34
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 32
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 30
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 28
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 26
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 24
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 22
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 20
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 18
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 16
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 14
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
 Key with keycode 23 down
-pacman->objData.moveCD: 8
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
 
-pacman->objData.moveCD: 6
+pacman->objData.moveCD: 0
 
 pman->objData.faceing: 3
+
+pacman->objData.moveCD: 0
+
+pman->objData.faceing: 3
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 62
 
 pman->objData.faceing: 1
 
 pacman->objData.moveCD: 60
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 48
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 38
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 34
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 12
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 58
 
 pman->objData.faceing: 1
 
@@ -1479,15 +4925,11 @@ pacman->objData.moveCD: 50
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 46
+pacman->objData.moveCD: 48
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 42
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 38
+pacman->objData.moveCD: 40
 
 pman->objData.faceing: 1
 
@@ -1519,7 +4961,7 @@ pacman->objData.moveCD: 24
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 20
+pacman->objData.moveCD: 22
 
 pman->objData.faceing: 1
 
@@ -1531,7 +4973,7 @@ pacman->objData.moveCD: 18
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 16
+pacman->objData.moveCD: 14
 
 pman->objData.faceing: 1
 
@@ -1539,7 +4981,7 @@ pacman->objData.moveCD: 14
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 12
+pacman->objData.moveCD: 10
 
 pman->objData.faceing: 1
 
@@ -1547,582 +4989,184 @@ pacman->objData.moveCD: 10
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 8
-
-pman->objData.faceing: 1
-
 pacman->objData.moveCD: 6
 
 pman->objData.faceing: 1
-
-pacman->objData.moveCD: 2
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 64
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 62
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 60
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 58
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 56
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 50
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 44
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 42
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 40
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 32
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 30
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 24
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 20
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 20
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 18
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 10
-
-pman->objData.faceing: 1
-
-Key with keycode 1 down
-pacman->objData.moveCD: 8
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 6
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 2
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 64
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 62
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 60
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 58
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 56
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 50
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 42
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 40
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 32
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 30
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 28
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 26
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 24
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 22
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 20
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 14
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 8
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 8
-
-pman->objData.faceing: 2
 
 pacman->objData.moveCD: 4
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 2
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 64
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 62
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 60
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 58
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 56
 
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 50
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 42
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 40
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 32
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 30
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 28
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 26
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 24
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 22
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 10
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 6
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 4
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 2
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 64
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 60
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 58
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 56
-
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 54
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 52
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 48
 
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 44
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
-pacman->objData.moveCD: 42
+pacman->objData.moveCD: 44
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
 
-pacman->objData.moveCD: 38
+pacman->objData.moveCD: 40
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 36
 
-pman->objData.faceing: 2
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 32
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 30
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 28
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 26
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 24
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 22
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 20
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 18
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 14
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 10
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 6
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 4
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 2
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 64
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 62
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 60
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 58
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 54
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 52
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 50
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 44
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 40
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 36
+
+pman->objData.faceing: 1
 
 pacman->objData.moveCD: 34
 
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 28
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 26
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 20
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 18
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 14
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 10
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 8
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 6
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 2
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 64
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 62
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 60
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 58
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 56
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 50
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 44
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 42
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 40
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 2
-
-Key with keycode 23 down
-pacman->objData.moveCD: 32
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 30
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 28
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 26
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 24
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 22
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 20
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 18
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 10
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 8
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 6
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 2
-
-pman->objData.faceing: 2
-
-pacman->objData.moveCD: 64
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 62
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 60
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 58
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 56
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 54
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 52
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 44
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 42
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 40
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 36
-
 pman->objData.faceing: 1
 
 pacman->objData.moveCD: 32
@@ -2149,127 +5193,7 @@ pacman->objData.moveCD: 22
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 20
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 16
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 12
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 8
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 8
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 6
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 2
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 64
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 62
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 60
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 58
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 56
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 54
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 52
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 50
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 48
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 46
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 44
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 36
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 32
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 30
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 28
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 26
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 24
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 22
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 20
-
-pman->objData.faceing: 1
-
 pacman->objData.moveCD: 18
-
-pman->objData.faceing: 1
-
-pacman->objData.moveCD: 16
 
 pman->objData.faceing: 1
 
@@ -2281,7 +5205,11 @@ pacman->objData.moveCD: 12
 
 pman->objData.faceing: 1
 
-pacman->objData.moveCD: 10
+pacman->objData.moveCD: 8
+
+pman->objData.faceing: 1
+
+pacman->objData.moveCD: 6
 
 pman->objData.faceing: 1
 
@@ -2503,438 +5431,5 @@ pacman->objData.moveCD: 62
 
 pacman->objData.moveCD: 62
 
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-pacman->objData.moveCD: 62
-
-Menu scene created
-Change scene from Start to Menu
-loaded image: ./Assets/settings.png
-loaded image: ./Assets/settings2.png
-loaded image: Assets/title.png
 Window close button clicked
 Game end
