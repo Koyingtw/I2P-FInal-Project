@@ -50,7 +50,7 @@ static void init(void) {
 	game_over = false;
 	game_main_Score = 0;
 	// create map
-	basic_map = create_map(NULL);
+	// basic_map = create_map(NULL);
 	// TODO-GC-read_txt: Create map from .txt file so that you can design your own map!! (done)
 	basic_map = create_map("Assets/map_nthu.txt");
 	if (!basic_map) {
@@ -110,11 +110,25 @@ static void checkItem(void) {
 	case '.':
 		pacman_eatItem(pman, '.');
 		eat = true;
+		break;
 	case 'P':
-		// TODO-GC-PB: ease power bean
-		// pacman_eatItem(...);
+		// TODO-GC-PB: ease power bean (done)
+		eat = true;
+		pacman_eatItem(pman, 'P');
 		// stop and reset power_up_timer value
 		// start the timer
+
+		for (int i = 0; i < GHOST_NUM; i++) {
+			ghost_toggle_FLEE(ghosts[i], true);
+		}
+
+		if (!al_get_timer_started(power_up_timer)) {
+			al_start_timer(power_up_timer);
+			al_set_timer_count(power_up_timer, 0);
+		}
+		else {
+			al_set_timer_count(power_up_timer, 0);
+		}
 		break;
 	default:
 		break;
@@ -126,15 +140,22 @@ static void checkItem(void) {
 		basic_map->map[Grid_y][Grid_x] = ' ';
 }
 static void status_update(void) {
-	// TODO-PB: check powerUp duration
-	/*
+	// TODO-PB: check powerUp duration (done)
 	if (pman->powerUp)
 	{
 		// Check the value of power_up_timer
 		// If runs out of time reset all relevant variables and ghost's status
 		// hint: ghost_toggle_FLEE
+		if (al_get_timer_count(power_up_timer) >= power_up_duration) {
+			pman->powerUp = false;
+			al_stop_timer(power_up_timer);
+			for (int i = 0; i < GHOST_NUM; i++) {
+				if (ghosts[i]->status == FLEE) {
+					ghost_toggle_FLEE(ghosts[i], false);
+				}
+			}
+		}
 	}
-	*/
 
 
 	for (int i = 0; i < GHOST_NUM; i++) {
@@ -160,12 +181,11 @@ static void status_update(void) {
 		else if (ghosts[i]->status == FLEE)
 		{
 			// TODO-GC-PB: if ghost is collided by pacman, it should go back to the room immediately and come out after a period.
-			/*
-			if(!cheat_mode and collision of pacman and ghost)
-			{
-				ghost_collided(...)
+			const RecArea pmanHB = getDrawArea((object *)pman, GAME_TICK_CD);
+			const RecArea ghostHB = getDrawArea((object *)ghosts[i], GAME_TICK_CD);
+			if(!cheat_mode && RecAreaOverlap(&pmanHB, &ghostHB)) { 
+				ghost_collided(ghosts[i]);
 			}
-			*/
 		}
 	}
 }
@@ -354,4 +374,12 @@ Scene scene_main_create(void) {
 	// TODO-IF: Register more event callback functions such as keyboard, mouse, ...
 	game_log("Start scene created");
 	return scene;
+}
+
+int get_power_up_duration() {
+	return power_up_duration;
+}
+
+ALLEGRO_TIMER* get_power_up_timer() {
+	return power_up_timer;
 }

@@ -13,4 +13,7 @@ int64_t get_power_up_timer_tick();
 int64_t get_power_up_duration();
 */
 
+int get_power_up_duration();
+ALLEGRO_TIMER* get_power_up_timer();
+
 #endif

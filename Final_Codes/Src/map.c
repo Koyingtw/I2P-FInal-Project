@@ -156,12 +156,10 @@ void draw_map(Map const* M) {
 				case '#':
 					draw_block_index(M, row, col);
 					break;
-				// TODO-PB: draw the power bean
-				/*
+				// TODO-PB: draw the power bean (done)
 				case 'P':
-					draw_power_bean(...);
+					draw_power_bean(M, row, col);
 					break;
-				*/
 				case '.':
 					draw_bean(M, row, col);
 					break;

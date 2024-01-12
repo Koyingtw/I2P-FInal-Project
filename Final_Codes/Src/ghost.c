@@ -3,6 +3,7 @@
 #include "ghost.h"
 #include "map.h"
 #include "pacman_obj.h"
+#include "scene_game.h"
 
 /* global variables*/
 // [ NOTE ]
@@ -110,37 +111,66 @@ void ghost_draw(Ghost* ghost) {
 
 	int bitmap_x_offset = 0;
 	if (ghost->status == FLEE) {
-		// TODO-PB-animation: ghost FLEE animation, draw blue flee sprites,
+		// TODO-PB-animation: ghost FLEE animation, draw blue flee sprites, (done)
 		//						 while time is running out, alternatively draw blue and white flee sprites.
 		// *draw ghost->flee_sprite
 		/* hint: try to add some function in scene_game.h and scene_game.c that
 			gets the value of `power_up_timer` and `power_up_duration`.
 		*/ 
-		/*
-			if (it has run out of 70% of the time of power mode  )
-			{
-				// alternately draw blue and white sprites
-				if (ghost->objData.moveCD >> 4)& 1) {
-					bitmap_x_offset = ...;
-				}
-				al_draw_scaled_bitmap(...)
+
+		bitmap_x_offset = 0;
+		game_log("power up timer count: %f", (float)al_get_timer_count(get_power_up_timer()));
+		if ((float)al_get_timer_count(get_power_up_timer()) >= (float)get_power_up_duration() * 0.7) // it has run out of 70% of the time of power mode  
+		{
+			// alternately draw blue and white sprites
+			if ((ghost->objData.moveCD >> 4) & 1) {
+				bitmap_x_offset = 16;
 			}
-			else 
-			{
-				// draw only blue sprite
-				al_draw_scaled_bitmap(...)
+			if (ghost->objData.moveCD >> 5 & 1) {
+				bitmap_x_offset += 32;
 			}
-		*/
+			al_draw_scaled_bitmap(ghost->flee_sprite, bitmap_x_offset, 0,
+				16, 16,
+				drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
+				draw_region, draw_region, 0);
+		}
+		else 
+		{
+			// draw only blue sprite
+			if ((ghost->objData.moveCD >> 4) & 1) {
+				bitmap_x_offset = 16;
+			}
+			al_draw_scaled_bitmap(ghost->flee_sprite, bitmap_x_offset, 0,
+				16, 16,
+				drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
+				draw_region, draw_region, 0);
+		}
 	}
 	else if (ghost->status == GO_IN) {
-		// TODO-PB-animation: ghost going animation
+		// TODO-PB-animation: ghost going animation (done)
 		// *draw ghost->dead_sprite
-		/*
+		int offset = 0;
+		if (ghost->objData.moveCD >> 4 & 1)
+			offset = 16;
 		switch (ghost->objData.facing)
 		{
 		case LEFT:
-			...
-		*/
+			bitmap_x_offset = 32;
+			break;
+		case RIGHT:
+			bitmap_x_offset = 0;
+			break;
+		case UP:
+			bitmap_x_offset = 64;
+			break;
+		case DOWN:
+			bitmap_x_offset = 96;
+			break;
+		}
+		al_draw_scaled_bitmap(ghost->dead_sprite, bitmap_x_offset + offset, 0,
+			16, 16,
+			drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
+			draw_region, draw_region, 0);
 	}
 	else {
 		// TODO-GC-animation: ghost animation (done)
@@ -238,26 +268,25 @@ bool ghost_movable(const Ghost* ghost, const Map* M, Directions targetDirec, boo
 }
 
 void ghost_toggle_FLEE(Ghost* ghost, bool setFLEE) {
-	// TODO-PB: change ghosts state when power bean is eaten by pacman.
+	// TODO-PB: change ghosts state when power bean is eaten by pacman. (done)
 	// When pacman eats the power bean, only ghosts who are in state FREEDOM will change to state FLEE.
 	// For those who are not (BLOCK, GO_IN, etc.), they won't change state.
 	// Spec above is based on the classic PACMAN game.
 	// setFLEE = true => set to FLEE, setFLEE = false => reset to FREEDOM
-	/*
 	if(setFLEE){
 		// set FREEDOM ghost's status to FLEE and make them slow 
-		if(... == FREEDOM){
-			...
+		if (ghost->status == FREEDOM){
+			ghost->status = FLEE;
 			ghost->speed = 1;
 		}
-	}else{
+	}
+	else{
 		// set FLEE ghost's status to FREESOME and them down
-		if(... == FLEE){
-			...
+		if(ghost->status == FLEE){
+			ghost->status = FREEDOM;
 			ghost->speed = 2;
 		}
 	}
-	*/
 }
 
 void ghost_collided(Ghost* ghost) {

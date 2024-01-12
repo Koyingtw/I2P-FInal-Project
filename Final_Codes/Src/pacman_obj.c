@@ -101,7 +101,6 @@ void pacman_draw(Pacman* pman) {
 	RecArea drawArea = getDrawArea((object *)pman, GAME_TICK_CD);
 
 	//Draw default image
-	game_log("pacman->objData.moveCD: %d\n", pman->objData.moveCD);
 	if (pman->objData.preMove == NONE) {
 		al_draw_scaled_bitmap(pman->move_sprite, 0, 0,
 			16, 16,
@@ -128,7 +127,6 @@ void pacman_draw(Pacman* pman) {
 			e.g. Similarly, if ((val>>4) & 1 == 0) is true then `val % 32` is 0~15, if ((val>>4) & 1 == 1) is true then `val % 32` is 16~31. 
 		*/
 		
-		game_log("pman->objData.faceing: %d\n", pman->objData.facing);
 		switch(pman->objData.facing)
 		{
 		case LEFT:
@@ -220,12 +218,11 @@ void pacman_eatItem(Pacman* pacman, const char Item) {
 		PACMAN_MOVESOUND_ID = play_audio(PACMAN_MOVESOUND, effect_volume);
 		game_update_scoreboard(10);
 		break;
-	// TODO-GC-PB: set pacman powerUp mode
-	/*
+	// TODO-GC-PB: set pacman powerUp mode (done)
 	case 'P':
-		...
+		pacman->powerUp = true;
+		game_log("powerUp: %d\n", pacman->powerUp);
 		break;
-	*/
 	default:
 		break;
 	}

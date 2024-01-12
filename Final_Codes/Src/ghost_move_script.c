@@ -106,7 +106,7 @@ static void ghost_move_script_GO_OUT(Ghost* ghost, Map* M) {
 	// Here we always assume the room of ghosts opens upward.
 	// And used a greedy method to drag ghosts out of room.
 	// You should modify here if you have different implementation/design of room.
-	if(M->map[ghost->objData.Coord.y][ghost->objData.Coord.x] == 'B') 
+	if (M->map[ghost->objData.Coord.y][ghost->objData.Coord.x] == 'B') 
 		ghost_NextMove(ghost, UP);
 	else
 		ghost->status = FREEDOM;
@@ -114,13 +114,41 @@ static void ghost_move_script_GO_OUT(Ghost* ghost, Map* M) {
 
 static void ghost_move_script_FLEE(Ghost* ghost, Map* M, const Pacman * const pacman) {
 	Directions shortestDirection = shortest_path_direc(M, ghost->objData.Coord.x, ghost->objData.Coord.y, pacman->objData.Coord.x, pacman->objData.Coord.y);
-	// TODO-PB: escape from pacman
+	// TODO-PB: escape from pacman (done)
 	// Description:
 	// The concept here is to simulate ghosts running away from pacman while pacman is having power bean ability.
 	// To achieve this, think in this way. We first get the direction to shortest path to pacman, call it K (K is either UP, DOWN, RIGHT or LEFT).
 	// Then we choose other available direction rather than direction K.
 	// In this way, ghost will escape from pacman.
 
+	Directions counter_one = RIGHT;
+	switch(ghost->objData.preMove) {
+		case RIGHT:
+			counter_one = LEFT;
+			break;
+		case LEFT:
+			counter_one = RIGHT;
+			break;
+		case UP:
+			counter_one = DOWN;
+			break;
+		case DOWN:
+			counter_one = UP;
+			break;
+	}
+
+	static Directions proba[4]; // possible movement
+	int cnt = 0;
+	for (Directions i = 1; i <= 4; i++)
+		if (i != counter_one && ghost_movable(ghost, M, i, 1) && 
+			i != shortest_path_direc(M, ghost->objData.Coord.x, ghost->objData.Coord.y, pacman->objData.Coord.x, pacman->objData.Coord.y)) 	
+			proba[cnt++] = i;
+	if (cnt >= 1) {
+		ghost_NextMove(ghost, proba[generateRandomNumber(0, cnt)]);
+	}
+	else { // for the dead end case
+		ghost_NextMove(ghost, counter_one);
+	}
 }
 
 void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman) {
