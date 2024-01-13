@@ -29,7 +29,7 @@ static const int draw_region = 30;
 static const int basic_speed = 2;
 
 bool ghost_first_frame = true;
-const int ghost_speed_table[5] = {2, 2, 2, 4, 1};
+const int ghost_speed_table[6] = {2, 2, 2, 4, 1, 0};
 
 Ghost* ghost_create(int flag) {
 
@@ -184,7 +184,7 @@ void ghost_draw(Ghost* ghost) {
 		// *draw ghost->move_sprite
 
 		int offset = 0;
-		if (ghost->objData.moveCD >> 4 & 1)
+		if ((ghost->objData.moveCD >> 4 & 1) && ghost->status != STOP)
 			offset = 16;
 
 
@@ -298,6 +298,16 @@ void ghost_toggle_FLEE(Ghost* ghost, bool setFLEE) {
 void ghost_toggle_GOIN(Ghost *ghost, bool setGOIN) {
 	if (setGOIN) {
 		ghost->status = GO_IN;
+	}
+	else {
+		ghost->status = FREEDOM;
+	}
+	ghost->speed = ghost_speed_table[ghost->status];
+}
+
+void ghost_toggle_STOP(Ghost *ghost, bool setSTOP) {
+	if (setSTOP) {
+		ghost->status = STOP;
 	}
 	else {
 		ghost->status = FREEDOM;

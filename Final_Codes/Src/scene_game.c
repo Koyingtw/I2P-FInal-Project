@@ -165,9 +165,6 @@ static void status_update(void) {
 		if (ghosts[i]->status == GO_IN){
 			continue;
 		}
-		else if (ghost_go_back) {
-			ghost_toggle_GOIN(ghosts[i], true);
-		}
 		else if (ghosts[i]->status == FREEDOM)
 		{
 			// TODO-GC-game_over: use `getDrawArea(..., GAME_TICK_CD)` and `RecAreaOverlap(..., GAME_TICK_CD)` functions to detect if pacman and ghosts collide with each other. (done)
@@ -313,7 +310,18 @@ static void on_key_down(int key_code) {
 			pacman_NextMove(pman, 2);
 			break;
 		case ALLEGRO_KEY_S:
-			pacman_NextMove(pman, 4);
+			if ((key_state[ALLEGRO_KEY_LCTRL] || key_state[ALLEGRO_KEY_RCTRL]) && cheat_mode) {
+				ghost_stop = !ghost_stop;
+				for (int i = 0; i < GHOST_NUM; i++) {
+					ghost_toggle_STOP(ghosts[i], ghost_stop);
+				}
+				if (ghost_stop)
+					printf("ghost stop on\n");
+				else
+					printf("ghost stop off\n");	
+			}
+			else
+				pacman_NextMove(pman, 4);
 			break;
 		case ALLEGRO_KEY_D:
 			pacman_NextMove(pman, 3);
@@ -332,22 +340,18 @@ static void on_key_down(int key_code) {
 			// set cheat mode: Ghosts start going back to the room 
 			if (cheat_mode) {
 				ghost_go_back = !ghost_go_back;
+				for (int i = 0; i < GHOST_NUM; i++) {
+					ghost_toggle_GOIN(ghosts[i], ghost_go_back);
+				}
 				if (ghost_go_back)
 					printf("ghost go back on\n");
 				else
 					printf("ghost go back off\n");
 			}
 			break;
-		case ALLEGRO_KEY_LCTRL:
-		case ALLEGRO_KEY_RCTRL:
-			if (key_state[ALLEGRO_KEY_S] && cheat_mode) { // set cheat mode: Ghosts stop moving 
-				ghost_stop = !ghost_stop;
-				if (ghost_stop)
-					printf("ghost stop on\n");
-				else
-					printf("ghost stop off\n");
-			}
-			else if (key_state[ALLEGRO_KEY_L]) { // set cheat mode: Allow Pacman to cross the wall
+		case ALLEGRO_KEY_L:
+			if ((key_state[ALLEGRO_KEY_LCTRL] || key_state[ALLEGRO_KEY_RCTRL]) && cheat_mode) { 
+				// set cheat mode: Allow Pacman to cross the wall
 				pacman_cross_wall = !pacman_cross_wall;
 				if (pacman_cross_wall)
 					printf("pacman cross wall on\n");

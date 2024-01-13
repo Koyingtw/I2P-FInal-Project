@@ -19,7 +19,8 @@ typedef enum {
 	GO_OUT,							 // going out the ghost room
 	FREEDOM,					     // free at the map
 	GO_IN,							 // going back to the ghost room 
-	FLEE							 // pacman powered up
+	FLEE,							 // pacman powered up
+	STOP						 	 // stop moving			
 } GhostStatus;
 
 typedef enum {
@@ -57,4 +58,5 @@ void ghost_collided(Ghost* ghost);
 void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman);
 void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman);
 void ghost_toggle_GOIN(Ghost* ghost, bool setGOIN);
+void ghost_toggle_STOP(Ghost *ghost, bool setSTOP);
 #endif

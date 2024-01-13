@@ -2,6 +2,7 @@
 #include "ghost.h"
 #include "pacman_obj.h"
 #include "map.h"
+#include "scene_game.h"
 /* Shared variables */
 #define GO_OUT_TIME 256
 extern uint32_t GAME_TICK_CD;
@@ -154,8 +155,7 @@ static void ghost_move_script_FLEE(Ghost* ghost, Map* M, const Pacman * const pa
 void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman) {
 	if (!movetime(ghost->speed))
 		return;
-		switch (ghost->status)
-		{
+	switch (ghost->status) {
 		case BLOCKED:
 			ghost_move_script_BLOCKED(ghost, M);
 			if (al_get_timer_count(game_tick_timer) > GO_OUT_TIME)
@@ -169,7 +169,7 @@ void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman) {
 			break;
 		case GO_IN:
 			ghost_move_script_GO_IN(ghost, M);
-			if (M->map[ghost->objData.Coord.y][ghost->objData.Coord.x] == 'B') {
+			if (M->map[ghost->objData.Coord.y][ghost->objData.Coord.x] == 'B' && !ghost_go_back) {
 				ghost->status = GO_OUT;
 				ghost->speed = 2; // reset the speed after back to the room.
 			}
@@ -179,16 +179,16 @@ void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman) {
 			break;
 		default:
 			break;
-		}
+	}
 
-		if(ghost_movable(ghost, M, ghost->objData.nextTryMove, false)){
-			ghost->objData.preMove = ghost->objData.nextTryMove;
-			ghost->objData.nextTryMove = NONE;
-		}
-		else if (!ghost_movable(ghost, M, ghost->objData.preMove, false))
-			return;
+	if(ghost_movable(ghost, M, ghost->objData.nextTryMove, false)){
+		ghost->objData.preMove = ghost->objData.nextTryMove;
+		ghost->objData.nextTryMove = NONE;
+	}
+	else if (!ghost_movable(ghost, M, ghost->objData.preMove, false))
+		return;
 
-		switch (ghost->objData.preMove) {
+	switch (ghost->objData.preMove) {
 		case RIGHT:
 			ghost->objData.Coord.x += 1;
 			break;
@@ -203,9 +203,9 @@ void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman) {
 			break;
 		default:
 			break;
-		}
-		ghost->objData.facing = ghost->objData.preMove;
-		ghost->objData.moveCD = GAME_TICK_CD;
+	}
+	ghost->objData.facing = ghost->objData.preMove;
+	ghost->objData.moveCD = GAME_TICK_CD;
 }
 
 void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman) {
@@ -234,7 +234,7 @@ void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman) {
 			break;
 		case GO_IN:
 			ghost_move_script_GO_IN(ghost, M);
-			if (M->map[ghost->objData.Coord.y][ghost->objData.Coord.x] == 'B') {
+			if (M->map[ghost->objData.Coord.y][ghost->objData.Coord.x] == 'B' && !ghost_go_back) {
 				ghost->status = BLOCKED;
 				ghost->speed = 2; // reset the speed after back to the room.
 				ghost->go_in_time = al_get_timer_count(game_tick_timer); 
