@@ -9,6 +9,7 @@
         "scene_custom_keys.h": "c",
         "pacman_obj.h": "c",
         "utility.h": "c",
-        "ghost.h": "c"
+        "ghost.h": "c",
+        "scene_custom_keys2.h": "c"
     }
 }

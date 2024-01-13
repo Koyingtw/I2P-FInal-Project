@@ -15,7 +15,7 @@ endif
 
 DBG = -g -fsanitize=address
 WARNINGS = -Wall -Wextra # add `$(WARNINGS)`  compile flag in line 26 and 29 if you want additional compile check warnings
-objects= main.o game.o ghost.o ghost_move_script.o map.o pacman_obj.o scene_game.o scene_menu.o scene_menu_object.o scene_settings.o shared.o utility.o scene_custom_keys.o
+objects= main.o game.o ghost.o ghost_move_script.o map.o pacman_obj.o scene_game.o scene_menu.o scene_menu_object.o scene_settings.o shared.o utility.o scene_custom_keys.o scene_custom_keys2.o
 
 all: pacman 
 

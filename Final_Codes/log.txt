@@ -19,6 +19,239 @@ loaded image: ./Assets/frame1.png
 loaded image: ./Assets/frame2.png
 loaded image: ./Assets/frame1.png
 loaded image: ./Assets/frame2.png
+Settings scene created
+Change scene from Settings to Custom Keys
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+Key with keycode 84 down
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+Key with keycode 85 down
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+Key with keycode 82 down
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+Key with keycode 83 down
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+Settings scene created
+Change scene from Custom Keys to Custom Keys
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+Key with keycode 23 down
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+Key with keycode 19 down
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+Key with keycode 1 down
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame2.png
+Key with keycode 4 down
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame1.png
+Key with keycode 67 down
+Settings scene created
+Change scene from Custom Keys to Settings
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
+loaded image: ./Assets/frame1.png
+loaded image: ./Assets/frame2.png
 loaded image: ./Assets/frame3.png
 loaded image: ./Assets/frame3.png
 Key with keycode 67 down
@@ -54,66 +287,13 @@ creating ghost 3
 loaded image: Assets/ghost_flee.png
 loaded image: Assets/ghost_dead.png
 loaded image: Assets/ghost_move_orange.png
-Key with keycode 3 down
-Key with keycode 29 down
 Key with keycode 82 down
 Key with keycode 83 down
 Key with keycode 82 down
 Key with keycode 83 down
+Key with keycode 4 down
+Key with keycode 1 down
+Key with keycode 4 down
 Key with keycode 82 down
-Key with keycode 30 down
-Key with keycode 83 down
-Key with keycode 82 down
-Key with keycode 83 down
-Key with keycode 82 down
-Key with keycode 83 down
-Key with keycode 82 down
-Key with keycode 83 down
-Key with keycode 82 down
-Key with keycode 83 down
-Key with keycode 82 down
-Key with keycode 83 down
-Key with keycode 82 down
-Key with keycode 28 down
-Key with keycode 82 down
-Key with keycode 84 down
-Key with keycode 82 down
-Key with keycode 85 down
-Key with keycode 83 down
-Key with keycode 31 down
-Key with keycode 82 down
-Key with keycode 83 down
-Key with keycode 82 down
-Key with keycode 83 down
-Key with keycode 82 down
-Key with keycode 83 down
-Key with keycode 82 down
-Key with keycode 83 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
-Key with keycode 11 down
 Window close button clicked
 Game end

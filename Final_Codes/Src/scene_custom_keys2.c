@@ -1,5 +1,6 @@
 #include "scene_custom_keys.h"
 #include "scene_menu_object.h"
+#include "scene_custom_keys.h"
 #include "game.h"
 #include "shared.h"
 #include <allegro5/allegro_color.h>
@@ -14,7 +15,7 @@
 /* Define your static vars / function prototypes below. */
 
 Button btnInputKeys[4];
-Button btnNextPage;
+Button btnPrevPage;
 bool btnSelected[4];
 char *keyTable[4];
 
@@ -25,12 +26,12 @@ static void init() {
         btnInputKeys[i] = button_create(SCREEN_W / 2 - 30, 150 + 100 * i, 200, 60, "./Assets/frame1.png", "./Assets/frame1.png");
         btnSelected[i] = false;
     }
-    keyTable[0] = "W";
-    keyTable[1] = "S";
-    keyTable[2] = "A";
-    keyTable[3] = "D";
+    keyTable[0] = "UP";
+    keyTable[1] = "DOWN";
+    keyTable[2] = "LEFT";
+    keyTable[3] = "RIGHT";
 
-    btnNextPage = button_create(SCREEN_W - 250, SCREEN_H - 90, 200, 60, "./Assets/frame1.png", "./Assets/frame2.png");
+    btnPrevPage = button_create(50, SCREEN_H - 90, 200, 60, "./Assets/frame1.png", "./Assets/frame2.png");
 }
 
 static void draw_scene_custom_keys(void ){
@@ -51,9 +52,9 @@ static void draw_scene_custom_keys(void ){
     for (int i = 0; i < 4; i++) {
         drawButton(btnInputKeys[i]);
     }
-    drawButton(btnNextPage);
+    drawButton(btnPrevPage);
 
-    al_draw_text(menuFont, al_map_rgb(255, 255, 255), 150, 70, ALLEGRO_ALIGN_CENTER, "PACMAN");
+    al_draw_text(menuFont, al_map_rgb(255, 255, 255), 150, 70, ALLEGRO_ALIGN_CENTER, "GHOST");
     al_draw_text(menuFont, al_map_rgb(255, 255, 255), 150, 170, ALLEGRO_ALIGN_CENTER, "UP");
     al_draw_text(menuFont, al_map_rgb(255, 255, 255), 150, 270, ALLEGRO_ALIGN_CENTER, "DOWN");
     al_draw_text(menuFont, al_map_rgb(255, 255, 255), 150, 370, ALLEGRO_ALIGN_CENTER, "LEFT");
@@ -62,7 +63,7 @@ static void draw_scene_custom_keys(void ){
     for (int i = 0; i < 4; i++) {
         al_draw_text(menuFont, al_map_rgb(255, 255, 255), SCREEN_W / 2 + 70, 170 + 100 * i, ALLEGRO_ALIGN_CENTER, keyTable[i]);
     }
-    al_draw_text(menuFont, al_map_rgb(255, 255, 255), SCREEN_W - 150, SCREEN_H - 75, ALLEGRO_ALIGN_CENTER, "NEXT PAGE");
+    al_draw_text(menuFont, al_map_rgb(255, 255, 255), 150, SCREEN_H - 75, ALLEGRO_ALIGN_CENTER, "PREV PAGE");
 }
 
 static void change_key(int pos, int keycode, char *key) {
@@ -71,7 +72,7 @@ static void change_key(int pos, int keycode, char *key) {
     btnInputKeys[pos].default_img = load_bitmap("./Assets/frame1.png");
     btnInputKeys[pos].hovered_img = load_bitmap("./Assets/frame1.png");
 
-    int keycodes[4] = {ALLEGRO_KEY_W, ALLEGRO_KEY_S, ALLEGRO_KEY_A, ALLEGRO_KEY_D};
+    int keycodes[4] = {ALLEGRO_KEY_UP, ALLEGRO_KEY_DOWN, ALLEGRO_KEY_LEFT, ALLEGRO_KEY_RIGHT};
 
     key_table[keycode] = keycodes[pos];
     
@@ -100,7 +101,7 @@ static void on_mouse_move(int a, int mouse_x, int mouse_y, int f) {
         btnInputKeys[i].hovered = buttonHover(btnInputKeys[i], mouse_x, mouse_y);
         btnInputKeys[i].hovered = buttonHover(btnInputKeys[i], mouse_x, mouse_y);  
     }
-    btnNextPage.hovered = buttonHover(btnNextPage, mouse_x, mouse_y);
+    btnPrevPage.hovered = buttonHover(btnPrevPage, mouse_x, mouse_y);
 }
 
 static void on_mouse_down() {
@@ -117,14 +118,14 @@ static void on_mouse_down() {
         }
     }
 
-    if (btnNextPage.hovered) {
-        game_change_scene(scene_custom_keys2_create());
+    if (btnPrevPage.hovered) {
+        game_change_scene(scene_custom_keys_create());
     }
 	return;
 }
 
 // The only function that is shared across files.
-Scene scene_custom_keys_create(void) {
+Scene scene_custom_keys2_create(void) {
 	Scene scene;
 	memset(&scene, 0, sizeof(Scene));
 	scene.name = "Custom Keys";
