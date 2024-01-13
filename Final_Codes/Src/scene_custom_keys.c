@@ -52,7 +52,7 @@ static void draw_scene_custom_keys(void ){
     al_draw_text(menuFont, al_map_rgb(255, 255, 255), 150, 270, ALLEGRO_ALIGN_CENTER, "DOWN");
     al_draw_text(menuFont, al_map_rgb(255, 255, 255), 150, 370, ALLEGRO_ALIGN_CENTER, "LEFT");
     al_draw_text(menuFont, al_map_rgb(255, 255, 255), 150, 470, ALLEGRO_ALIGN_CENTER, "RIGHT");
-    al_draw_text(menuFont, al_map_rgb(255, 255, 255), SCREEN_W / 2, 70, ALLEGRO_ALIGN_CENTER, "KEY");
+    al_draw_text(menuFont, al_map_rgb(255, 255, 255), SCREEN_W / 2 + 70, 70, ALLEGRO_ALIGN_CENTER, "KEY");
     for (int i = 0; i < 4; i++) {
         al_draw_text(menuFont, al_map_rgb(255, 255, 255), SCREEN_W / 2 + 70, 170 + 100 * i, ALLEGRO_ALIGN_CENTER, keyTable[i]);
     }

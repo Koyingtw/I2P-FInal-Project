@@ -24,7 +24,7 @@ Button btnCustomKeys;
 static void init() {
 	// TODO-Advance: button create
 
-	btnCustomKeys = button_create((SCREEN_W - 700) / 2, 50, 700, 100, "./Assets/custom_keys.png", "./Assets/custom_keys.png");
+	btnCustomKeys = button_create((SCREEN_W - 500) / 2, 85, 500, 60, "./Assets/frame1.png", "./Assets/frame2.png");
 }
 
 static void draw_scene_settings(void ){
@@ -38,6 +38,7 @@ static void draw_scene_settings(void ){
 		"<ENTER> Back to menu"
 	);
 	drawButton(btnCustomKeys);
+	al_draw_text(menuFont, al_map_rgb(255, 255, 255), SCREEN_W / 2, 100, ALLEGRO_ALIGN_CENTER, "Customize Keys");
 }
 
 static void on_key_down(int keycode) {

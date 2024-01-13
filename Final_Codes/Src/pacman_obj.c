@@ -102,7 +102,7 @@ void pacman_draw(Pacman* pman) {
 	// hint: use pman->objData.moveCD to determine which frame of the animation to draw
 	RecArea drawArea = getDrawArea((object *)pman, GAME_TICK_CD);
 
-	//Draw default image
+	// Draw default image
 	if (first_frame) {
 		al_draw_scaled_bitmap(pman->move_sprite, 0, 0,
 			16, 16,
