@@ -20,7 +20,8 @@ typedef enum {
 	FREEDOM,					     // free at the map
 	GO_IN,							 // going back to the ghost room 
 	FLEE,							 // pacman powered up
-	STOP						 	 // stop moving			
+	STOP,						 	 // stop moving			
+	CONTROLLED                       // controlled by player
 } GhostStatus;
 
 typedef enum {
@@ -42,6 +43,7 @@ typedef struct Ghost{
 	ALLEGRO_BITMAP* move_sprite;
 	ALLEGRO_BITMAP* flee_sprite;
 	ALLEGRO_BITMAP* dead_sprite;
+	bool controlled;
 } Ghost;
 
 Ghost* ghost_create(int flag);

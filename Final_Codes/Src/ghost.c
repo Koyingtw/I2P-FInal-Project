@@ -29,7 +29,7 @@ static const int draw_region = 30;
 static const int basic_speed = 2;
 
 bool ghost_first_frame = true;
-const int ghost_speed_table[6] = {2, 2, 2, 4, 1, 0};
+const int ghost_speed_table[7] = {2, 2, 2, 4, 1, 0, 2};
 
 Ghost* ghost_create(int flag) {
 
@@ -50,6 +50,8 @@ Ghost* ghost_create(int flag) {
 
 	ghost->flee_sprite = load_bitmap("Assets/ghost_flee.png");
 	ghost->dead_sprite = load_bitmap("Assets/ghost_dead.png");
+
+	ghost->controlled = false;
 
 	// TODO-GC-ghost: Create other type ghost, load corresponding sprites. (done)
 	// TODO-IF: You may design your own special tracking rules.
@@ -217,26 +219,32 @@ void ghost_NextMove(Ghost* ghost, Directions next) {
 }
 void printGhostStatus(GhostStatus S) {
 
-	switch(S){
+	switch(S) {
 	
-	case BLOCKED: // stay inside the ghost room
-		game_log("BLOCKED");
-		break;
-	case GO_OUT: // going out the ghost room
-		game_log("GO_OUT");
-		break;
-	case FREEDOM: // free at the map
-		game_log("FREEDOM");
-		break;
-	case GO_IN:
-		game_log("GO_IN");
-		break;
-	case FLEE:
-		game_log("FLEE");
-		break;
-	default:
-		game_log("status error");
-		break;
+		case BLOCKED: // stay inside the ghost room
+			game_log("BLOCKED");
+			break;
+		case GO_OUT: // going out the ghost room
+			game_log("GO_OUT");
+			break;
+		case FREEDOM: // free at the map
+			game_log("FREEDOM");
+			break;
+		case GO_IN:
+			game_log("GO_IN");
+			break;
+		case FLEE:
+			game_log("FLEE");
+			break;
+		case STOP:
+			game_log("STOP");
+			break;
+		case CONTROLLED:
+			game_log("CONTROLLED");
+			break;
+		default:
+			game_log("status error");
+			break;
 	}
 }
 bool ghost_movable(const Ghost* ghost, const Map* M, Directions targetDirec, bool disallow_room) {

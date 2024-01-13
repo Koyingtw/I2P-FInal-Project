@@ -109,6 +109,7 @@ Map* create_map(const char * filepath) {
 				// '.' -> beans
 				// 'B' -> room of ghost
 				// 'P' -> Power Bean 
+				
 				fscanf(pFile, "%c", &M->map[i][j]);
 			switch(M->map[i][j]) {
 			case '#':

@@ -6,6 +6,9 @@
         "allegro_color.h": "c",
         "scene_settings.h": "c",
         "scene_menu.h": "c",
-        "scene_custom_keys.h": "c"
+        "scene_custom_keys.h": "c",
+        "pacman_obj.h": "c",
+        "utility.h": "c",
+        "ghost.h": "c"
     }
 }

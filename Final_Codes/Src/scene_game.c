@@ -35,6 +35,7 @@ static const int power_up_duration = 10;
 static Pacman* pman;
 static Map* basic_map;
 static Ghost** ghosts;
+int controlling_ghost = 0;
 
 /* Declare static function prototypes */
 static void init(void);
@@ -85,10 +86,15 @@ static void init(void) {
 	}
 	GAME_TICK = 0;
 
+
 	render_init_screen();
 	power_up_timer = al_create_timer(1.0f); // 1 tick per second
 	if (!power_up_timer)
 		game_abort("Error on create timer\n");
+
+	if (PvP) {
+		ghosts[0]->controlled = true;
+	}
 	return ;
 }
 
@@ -283,8 +289,19 @@ static void draw(void) {
 	if (game_over)
 		return;
 	// no drawing below when game over
-	for (int i = 0; i < GHOST_NUM; i++)
+	for (int i = 0; i < GHOST_NUM; i++) {
 		ghost_draw(ghosts[i]);
+		char id[2] = "1";
+		id[0] += i;
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			290 + 100 * i, 20, ALLEGRO_ALIGN_CENTER, id);
+		al_draw_scaled_bitmap(ghosts[i]->move_sprite, 0, 0, 
+			16, 16, 300 + 100 * i, 20, 30, 30, 0);
+
+		if (i == controlling_ghost) {
+			al_draw_rectangle(280 + 100 * i, 20, 290 + 100 * i + 40, 20 + 30, al_map_rgb(255, 255, 0), 2);
+		}
+	}
 	
 	//debugging mode
 	if (debug_mode) {
@@ -339,6 +356,7 @@ static void destroy(void) {
 }
 
 static void on_key_down(int key_code) {
+	// pacman
 	switch (key_code)
 	{
 		// TODO-HACKATHON 1-1: Use allegro pre-defined enum ALLEGRO_KEY_<KEYNAME> to controll pacman movement
@@ -414,6 +432,47 @@ static void on_key_down(int key_code) {
 		break;
 	}
 
+
+	if (PvP) {
+		// ghost
+		if (ghosts[controlling_ghost]->status == FREEDOM) {
+			switch (key_code) {
+				case ALLEGRO_KEY_UP:
+					ghost_NextMove(ghosts[controlling_ghost], 1);
+					break;
+				case ALLEGRO_KEY_LEFT:
+					ghost_NextMove(ghosts[controlling_ghost], 2);
+					break;
+				case ALLEGRO_KEY_DOWN:
+					ghost_NextMove(ghosts[controlling_ghost], 4);
+					break;
+				case ALLEGRO_KEY_RIGHT:
+					ghost_NextMove(ghosts[controlling_ghost], 3);
+					break;
+				default:
+					break;
+			}
+		}
+
+		switch (key_code) {
+			case ALLEGRO_KEY_SLASH:
+				ghosts[controlling_ghost]->controlled = !ghosts[controlling_ghost]->controlled;
+				controlling_ghost = (controlling_ghost + 1) % GHOST_NUM;
+				ghosts[controlling_ghost]->controlled = !ghosts[controlling_ghost]->controlled;
+				break;
+			case ALLEGRO_KEY_1:
+			case ALLEGRO_KEY_2:
+			case ALLEGRO_KEY_3:
+			case ALLEGRO_KEY_4:
+				ghosts[controlling_ghost]->controlled = false;
+				if (key_code - ALLEGRO_KEY_1 <= GHOST_NUM - 1)
+					controlling_ghost = key_code - ALLEGRO_KEY_1;
+				ghosts[controlling_ghost]->controlled = true;
+				break;
+			default:
+				break;
+		}
+	}
 }
 
 static void on_mouse_down(int btn, int x, int y, int dz) {

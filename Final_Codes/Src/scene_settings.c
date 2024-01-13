@@ -28,6 +28,15 @@ static void init() {
 
 	btnCustomKeys = button_create((SCREEN_W - 500) / 2, 85, 500, 60, "./Assets/frame1.png", "./Assets/frame2.png");
 	btnPvPSelect = button_create((SCREEN_W - 500) / 2, 185, 500, 60, "./Assets/frame1.png", "./Assets/frame2.png");
+	
+	if (PvP) {
+		btnPvPSelect.default_img = load_bitmap("./Assets/frame3.png");
+		btnPvPSelect.hovered_img = load_bitmap("./Assets/frame3.png");
+	}
+	else {
+		btnPvPSelect.default_img = load_bitmap("./Assets/frame1.png");
+		btnPvPSelect.hovered_img = load_bitmap("./Assets/frame2.png");
+	}
 }
 
 static void draw_scene_settings(void ){
@@ -59,7 +68,7 @@ static void on_key_down(int keycode) {
 static void on_mouse_move(int a, int mouse_x, int mouse_y, int f) {
 	btnCustomKeys.hovered = buttonHover(btnCustomKeys, mouse_x, mouse_y);
 	btnPvPSelect.hovered = buttonHover(btnPvPSelect, mouse_x, mouse_y);
-	btnPvPSelect.hovered_img = load_bitmap("./Assets/frame3.png");
+	// btnPvPSelect.hovered_img = load_bitmap("./Assets/frame3.png");
 }
 
 static void on_mouse_down() {
@@ -67,8 +76,10 @@ static void on_mouse_down() {
 		game_change_scene(scene_custom_keys_create());
 	if (btnPvPSelect.hovered) {
 		PvP = !PvP;
-		if (PvP)
-			btnPvPSelect.hovered_img = btnPvPSelect.default_img = load_bitmap("./Assets/frame3.png");
+		if (PvP) {
+			btnPvPSelect.default_img = load_bitmap("./Assets/frame3.png");
+			btnPvPSelect.hovered_img = load_bitmap("./Assets/frame3.png");
+		}
 		else {
 			btnPvPSelect.default_img = load_bitmap("./Assets/frame1.png");
 			btnPvPSelect.hovered_img = load_bitmap("./Assets/frame2.png");
