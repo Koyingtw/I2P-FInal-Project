@@ -28,6 +28,9 @@ static const int draw_region = 30;
 // part, you will have more understanding on whole mechanism.
 static const int basic_speed = 2;
 
+bool ghost_first_frame = true;
+const int ghost_speed_table[5] = {2, 2, 2, 4, 1};
+
 Ghost* ghost_create(int flag) {
 
 	// NOTODO
@@ -99,11 +102,15 @@ void ghost_draw(Ghost* ghost) {
 	RecArea drawArea = getDrawArea((object*)ghost, GAME_TICK_CD);
 
 	//Draw default image
-	al_draw_scaled_bitmap(ghost->move_sprite, 0, 0,
-		16, 16,
-		drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
-		draw_region, draw_region, 0
-	);
+	if (ghost_first_frame) {
+		al_draw_scaled_bitmap(ghost->move_sprite, 0, 0,
+			16, 16,
+			drawArea.x + fix_draw_pixel_offset_x, drawArea.y + fix_draw_pixel_offset_y,
+			draw_region, draw_region, 0
+		);
+		// ghost->objData.facing = RIGHT;
+		ghost_first_frame = false;
+	}
 
 	// Draw ghost according to its status and use ghost->objData.moveCD value to determine which frame of the animation to draw.
 	// hint: please refer comments in pacman_draw 
@@ -150,21 +157,21 @@ void ghost_draw(Ghost* ghost) {
 		// TODO-PB-animation: ghost going animation (done)
 		// *draw ghost->dead_sprite
 		int offset = 0;
-		if (ghost->objData.moveCD >> 4 & 1)
-			offset = 16;
+		// if (ghost->objData.moveCD >> 4 & 1)
+		// 	offset = 16;
 		switch (ghost->objData.facing)
 		{
 		case LEFT:
-			bitmap_x_offset = 32;
+			bitmap_x_offset = 16;
 			break;
 		case RIGHT:
 			bitmap_x_offset = 0;
 			break;
 		case UP:
-			bitmap_x_offset = 64;
+			bitmap_x_offset = 32;
 			break;
 		case DOWN:
-			bitmap_x_offset = 96;
+			bitmap_x_offset = 48;
 			break;
 		}
 		al_draw_scaled_bitmap(ghost->dead_sprite, bitmap_x_offset + offset, 0,
@@ -277,22 +284,31 @@ void ghost_toggle_FLEE(Ghost* ghost, bool setFLEE) {
 		// set FREEDOM ghost's status to FLEE and make them slow 
 		if (ghost->status == FREEDOM){
 			ghost->status = FLEE;
-			ghost->speed = 1;
 		}
 	}
 	else{
 		// set FLEE ghost's status to FREESOME and them down
 		if(ghost->status == FLEE){
 			ghost->status = FREEDOM;
-			ghost->speed = 2;
 		}
 	}
+	ghost->speed = ghost_speed_table[ghost->status];
+}
+
+void ghost_toggle_GOIN(Ghost *ghost, bool setGOIN) {
+	if (setGOIN) {
+		ghost->status = GO_IN;
+	}
+	else {
+		ghost->status = FREEDOM;
+	}
+	ghost->speed = ghost_speed_table[ghost->status];
 }
 
 void ghost_collided(Ghost* ghost) {
 	if (ghost->status == FLEE) {
 		ghost->status = GO_IN;
-		ghost->speed = 4; // Go back to room faster
+		ghost->speed = ghost_speed_table[ghost->status]; // Go back to room faster
 	}
 }
 

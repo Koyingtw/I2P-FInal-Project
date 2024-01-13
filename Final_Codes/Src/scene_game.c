@@ -31,6 +31,9 @@ static Map* basic_map;
 static Ghost** ghosts;
 bool debug_mode = false;
 bool cheat_mode = false;
+bool ghost_go_back = false;
+bool ghost_stop = false;
+bool pacman_cross_wall = false;
 
 /* Declare static function prototypes */
 static void init(void);
@@ -161,6 +164,9 @@ static void status_update(void) {
 	for (int i = 0; i < GHOST_NUM; i++) {
 		if (ghosts[i]->status == GO_IN){
 			continue;
+		}
+		else if (ghost_go_back) {
+			ghost_toggle_GOIN(ghosts[i], true);
 		}
 		else if (ghosts[i]->status == FREEDOM)
 		{
@@ -314,10 +320,40 @@ static void on_key_down(int key_code) {
 			break;
 		case ALLEGRO_KEY_C:
 			cheat_mode = !cheat_mode;
+			ghost_stop = false;
+			ghost_go_back = false;
+			pacman_cross_wall = false;
 			if (cheat_mode)
 				printf("cheat mode on\n");
 			else 
 				printf("cheat mode off\n");
+			break;
+		case ALLEGRO_KEY_K:
+			// set cheat mode: Ghosts start going back to the room 
+			if (cheat_mode) {
+				ghost_go_back = !ghost_go_back;
+				if (ghost_go_back)
+					printf("ghost go back on\n");
+				else
+					printf("ghost go back off\n");
+			}
+			break;
+		case ALLEGRO_KEY_LCTRL:
+		case ALLEGRO_KEY_RCTRL:
+			if (key_state[ALLEGRO_KEY_S] && cheat_mode) { // set cheat mode: Ghosts stop moving 
+				ghost_stop = !ghost_stop;
+				if (ghost_stop)
+					printf("ghost stop on\n");
+				else
+					printf("ghost stop off\n");
+			}
+			else if (key_state[ALLEGRO_KEY_L]) { // set cheat mode: Allow Pacman to cross the wall
+				pacman_cross_wall = !pacman_cross_wall;
+				if (pacman_cross_wall)
+					printf("pacman cross wall on\n");
+				else
+					printf("pacman cross wall off\n");
+			}
 			break;
 		case ALLEGRO_KEY_G:
 			debug_mode = !debug_mode;

@@ -56,4 +56,5 @@ void ghost_toggle_FLEE(Ghost* ghosts, bool setFLEE);
 void ghost_collided(Ghost* ghost);
 void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman);
 void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman);
+void ghost_toggle_GOIN(Ghost* ghost, bool setGOIN);
 #endif
