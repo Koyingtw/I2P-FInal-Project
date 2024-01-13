@@ -10,6 +10,7 @@ extern bool cheat_mode;
 extern bool ghost_go_back;
 extern bool ghost_stop;
 extern bool pacman_cross_wall;
+extern bool PvP;
 
 Scene scene_main_create(void);
 void game_update_scoreboard(int score);

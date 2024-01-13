@@ -22,6 +22,12 @@ extern uint32_t GAME_TICK;
 extern ALLEGRO_TIMER* game_tick_timer;
 int game_main_Score = 0;
 bool game_over = false;
+bool debug_mode = false;
+bool cheat_mode = false;
+bool ghost_go_back = false;
+bool ghost_stop = false;
+bool pacman_cross_wall = false;
+bool PvP = false;
 
 /* Internal variables*/
 static ALLEGRO_TIMER* power_up_timer;
@@ -29,11 +35,6 @@ static const int power_up_duration = 10;
 static Pacman* pman;
 static Map* basic_map;
 static Ghost** ghosts;
-bool debug_mode = false;
-bool cheat_mode = false;
-bool ghost_go_back = false;
-bool ghost_stop = false;
-bool pacman_cross_wall = false;
 
 /* Declare static function prototypes */
 static void init(void);
