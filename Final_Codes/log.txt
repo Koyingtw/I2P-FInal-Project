@@ -39,13 +39,7 @@ loaded image: Assets/ghost_flee.png
 loaded image: Assets/ghost_dead.png
 loaded image: Assets/ghost_move_orange.png
 Key with keycode 3 down
-Key with keycode 217 down
-Key with keycode 19 down
-Key with keycode 217 down
-Key with keycode 19 down
-Key with keycode 217 down
-Key with keycode 19 down
-Key with keycode 217 down
-Key with keycode 19 down
-Key with keycode 217 down
-Key with keycode 19 down
+Key with keycode 11 down
+Key with keycode 3 down
+collide with ghost
+

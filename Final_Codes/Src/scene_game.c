@@ -236,6 +236,46 @@ static void draw(void) {
 	al_draw_text(menuFont, al_map_rgb(255, 255, 0),
 		100, 20, ALLEGRO_ALIGN_CENTER, score);
 
+	// draw cheatmode status
+	if (cheat_mode) {
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			50, 700, ALLEGRO_ALIGN_LEFT, "Cheat Mode: ON");
+	}
+	else {
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			50, 700, ALLEGRO_ALIGN_LEFT, "Cheat Mode: OFF");
+	}
+
+	// draw ghost go back status
+	if (ghost_go_back) {
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			50, 750, ALLEGRO_ALIGN_LEFT, "Ghost Go Back: ON");
+	}
+	else {
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			50, 750, ALLEGRO_ALIGN_LEFT, "Ghost Go Back: OFF");
+	}
+
+	// draw ghost stop status
+	if (ghost_stop) {
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			SCREEN_W - 50, 700, ALLEGRO_ALIGN_RIGHT, "Ghost Stop: ON");
+	}
+	else {
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			SCREEN_W - 50, 700, ALLEGRO_ALIGN_RIGHT, "Ghost Stop: OFF");
+	}
+
+	// draw pacman cross wall status
+	if (pacman_cross_wall) {
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			SCREEN_W - 50, 750, ALLEGRO_ALIGN_RIGHT, "Pacman Cross Wall: ON");
+	}
+	else {
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			SCREEN_W - 50, 750, ALLEGRO_ALIGN_RIGHT, "Pacman Cross Wall: OFF");
+	}
+
 	draw_map(basic_map);
 
 	pacman_draw(pman);
@@ -331,6 +371,12 @@ static void on_key_down(int key_code) {
 			ghost_stop = false;
 			ghost_go_back = false;
 			pacman_cross_wall = false;
+
+			for (int i = 0; i < GHOST_NUM; i++) {
+				ghost_toggle_STOP(ghosts[i], ghost_stop);
+				ghost_toggle_GOIN(ghosts[i], ghost_go_back);
+			}
+
 			if (cheat_mode)
 				printf("cheat mode on\n");
 			else 

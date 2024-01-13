@@ -57,7 +57,7 @@ static bool pacman_movable(const Pacman* pacman, const Map* M, Directions target
 		// for none UP, DOWN, LEFT, RIGHT direction u should return false.
 		return false;
 	}
-	if (is_wall_block(M, x, y) || is_room_block(M, x, y)) {
+	if ((is_wall_block(M, x, y) && !pacman_cross_wall) || is_room_block(M, x, y)) {
 		return false;
 	}
 	
