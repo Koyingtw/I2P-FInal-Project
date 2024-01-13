@@ -71,6 +71,8 @@ extern bool key_state[ALLEGRO_KEY_MAX];
 extern bool* mouse_state;
 // Mouse position.
 extern int mouse_x, mouse_y;
+
+extern int key_table[ALLEGRO_KEY_MAX];
 // TODO-IF: More variables to store input states such as joysticks, ...
 
 /* Function prototypes */

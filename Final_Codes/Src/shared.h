@@ -29,4 +29,6 @@ void shared_init(void);
 // Free shared variables and resources.
 void shared_destroy(void);
 
+char *keycode_to_char(int);
+
 #endif

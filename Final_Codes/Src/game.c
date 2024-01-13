@@ -25,6 +25,7 @@ const int RESERVE_SAMPLES = 4;
 Scene active_scene;
 bool key_state[ALLEGRO_KEY_MAX];
 bool* mouse_state;
+int key_table[ALLEGRO_KEY_MAX];
 /* Shared variables. */
 int mouse_x, mouse_y;
 uint32_t GAME_TICK = 0;
@@ -67,6 +68,9 @@ void game_create() {
 	game_init();
 	game_log("Game initialized");
 	
+	for (int i = 0; i < ALLEGRO_KEY_MAX; i++) {
+		key_table[i] = i;
+	}
 	
 	// Draw the first frame.
 	
@@ -182,22 +186,28 @@ static void game_start_event_loop(void) {
 		}
 		else if (event.type == ALLEGRO_EVENT_KEY_DOWN) {
 			// Event for keyboard key down.
-			 game_log("Key with keycode %d down", event.keyboard.keycode);
-			key_state[event.keyboard.keycode] = true;
-			if (event.keyboard.keycode == ALLEGRO_KEY_ESCAPE && strcmp(active_scene.name, "Menu") == 0) {
+			game_log("Key with keycode %d down", event.keyboard.keycode);
+			int keycode = event.keyboard.keycode;
+			if (key_table[keycode])
+				keycode = key_table[keycode];
+			key_state[keycode] = true;
+			if (keycode == ALLEGRO_KEY_ESCAPE && strcmp(active_scene.name, "Menu") == 0) {
 				game_log("Escape clicked");
 				gameDone = true;
 				continue;
 			}
 			if (active_scene.on_key_down)
-				(*active_scene.on_key_down)(event.keyboard.keycode);
+				(*active_scene.on_key_down)(keycode);
 		}
 		else if (event.type == ALLEGRO_EVENT_KEY_UP) {
 			// Event for keyboard key up.
 			//game_log("Key with keycode %d up", event.keyboard.keycode);
-			key_state[event.keyboard.keycode] = false;
+			int keycode = event.keyboard.keycode;
+			if (key_table[keycode])
+				keycode = key_table[keycode];
+			key_state[keycode] = false;
 			if (active_scene.on_key_up)
-				(*active_scene.on_key_up)(event.keyboard.keycode);
+				(*active_scene.on_key_up)(keycode);
 		}
 		else if (event.type == ALLEGRO_EVENT_MOUSE_BUTTON_DOWN) {
 			// Event for mouse key down.
