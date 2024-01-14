@@ -463,7 +463,8 @@ static void on_key_down(int key_code) {
 			case ALLEGRO_KEY_1:
 			case ALLEGRO_KEY_2:
 			case ALLEGRO_KEY_3:
-			case ALLEGRO_KEY_4:
+			case ALLEGRO_KEY_4: 
+				// switch controlling ghost
 				ghosts[controlling_ghost]->controlled = false;
 				if (key_code - ALLEGRO_KEY_1 <= GHOST_NUM - 1)
 					controlling_ghost = key_code - ALLEGRO_KEY_1;

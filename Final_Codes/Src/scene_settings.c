@@ -5,6 +5,7 @@
 #include "scene_menu_object.h"
 #include "scene_custom_keys.h"
 #include "scene_game.h"
+#include "scene_leaderboard.h"
 #include <allegro5/allegro_color.h>
 #include <allegro5/allegro_primitives.h>
 
@@ -22,13 +23,16 @@
 
 Button btnCustomKeys;
 Button btnPvPSelect;
+Button btnLeaderboard;
 
 static void init() {
 	// TODO-Advance: button create
 
 	btnCustomKeys = button_create((SCREEN_W - 500) / 2, 85, 500, 60, "./Assets/frame1.png", "./Assets/frame2.png");
 	btnPvPSelect = button_create((SCREEN_W - 500) / 2, 185, 500, 60, "./Assets/frame1.png", "./Assets/frame2.png");
+	btnLeaderboard = button_create((SCREEN_W - 500) / 2, 285, 500, 60, "./Assets/frame1.png", "./Assets/frame2.png");
 	
+	// set PvP button
 	if (PvP) {
 		btnPvPSelect.default_img = load_bitmap("./Assets/frame3.png");
 		btnPvPSelect.hovered_img = load_bitmap("./Assets/frame3.png");
@@ -49,10 +53,14 @@ static void draw_scene_settings(void ){
 		ALLEGRO_ALIGN_CENTER,
 		"<ENTER> Back to menu"
 	);
+
 	drawButton(btnCustomKeys);
 	drawButton(btnPvPSelect);
+	drawButton(btnLeaderboard);
+
 	al_draw_text(menuFont, al_map_rgb(255, 255, 255), SCREEN_W / 2, 100, ALLEGRO_ALIGN_CENTER, "Customize Keys");
 	al_draw_text(menuFont, al_map_rgb(255, 255, 255), SCREEN_W / 2, 200, ALLEGRO_ALIGN_CENTER, "PvP Mode");
+	al_draw_text(menuFont, al_map_rgb(255, 255, 255), SCREEN_W / 2, 300, ALLEGRO_ALIGN_CENTER, "Leaderboard");
 }
 
 static void on_key_down(int keycode) {
@@ -68,7 +76,7 @@ static void on_key_down(int keycode) {
 static void on_mouse_move(int a, int mouse_x, int mouse_y, int f) {
 	btnCustomKeys.hovered = buttonHover(btnCustomKeys, mouse_x, mouse_y);
 	btnPvPSelect.hovered = buttonHover(btnPvPSelect, mouse_x, mouse_y);
-	// btnPvPSelect.hovered_img = load_bitmap("./Assets/frame3.png");
+	btnLeaderboard.hovered = buttonHover(btnLeaderboard, mouse_x, mouse_y);
 }
 
 static void on_mouse_down() {
@@ -85,6 +93,8 @@ static void on_mouse_down() {
 			btnPvPSelect.hovered_img = load_bitmap("./Assets/frame2.png");
 		}
 	}
+	if (btnLeaderboard.hovered)
+		game_change_scene(scene_leaderboard_create());
 }
 
 // The only function that is shared across files.
