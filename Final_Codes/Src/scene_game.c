@@ -332,16 +332,16 @@ static void draw(void) {
 		return;
 
 	// no drawing below when game over
-	if (PvP) {
-		for (int i = 0; i < GHOST_NUM; i++) {
-			ghost_draw(ghosts[i]);
-			char id[2] = "1";
-			id[0] += i;
+	for (int i = 0; i < GHOST_NUM; i++) {
+		ghost_draw(ghosts[i]);
+		char id[2] = "1";
+		id[0] += i;
+
+		if (PvP) {
 			al_draw_text(menuFont, al_map_rgb(255, 255, 0),
 				290 + 100 * i, 20, ALLEGRO_ALIGN_CENTER, id);
 			al_draw_scaled_bitmap(ghosts[i]->move_sprite, 0, 0, 
-				16, 16, 300 + 100 * i, 20, 30, 30, 0);
-
+				16, 16, 300 + 100 * i, 20, 30, 30, 0);	
 			if (i == controlling_ghost) {
 				al_draw_rectangle(280 + 100 * i, 20, 290 + 100 * i + 40, 20 + 30, al_map_rgb(255, 255, 0), 2);
 			}
