@@ -182,6 +182,17 @@ static void on_mouse_down() {
 	return;
 }
 
+static void destory(void) {
+    al_destroy_bitmap(btnNextPage.default_img);
+    al_destroy_bitmap(btnNextPage.hovered_img);
+    al_destroy_bitmap(btnPrevPage.default_img);
+    al_destroy_bitmap(btnPrevPage.hovered_img);
+    al_destroy_bitmap(btnSortByName.default_img);
+    al_destroy_bitmap(btnSortByName.hovered_img);
+    al_destroy_bitmap(btnSortByScore.default_img);
+    al_destroy_bitmap(btnSortByScore.hovered_img);
+}
+
 // The only function that is shared across files.
 Scene scene_leaderboard_create(void) {
 	Scene scene;
@@ -193,6 +204,7 @@ Scene scene_leaderboard_create(void) {
     scene.on_key_down = &on_key_down;
     scene.on_mouse_move = &on_mouse_move;
     scene.on_mouse_down = &on_mouse_down;
+    scene.destroy = &destory;
 
 
 	// TODO-IF: Register more event callback functions such as keyboard, mouse, ...

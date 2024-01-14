@@ -405,6 +405,13 @@ static void destroy(void) {
 	for (int i = 0; i < GHOST_NUM; i++) {
 		ghost_destory(ghosts[i]);
 	}
+	free(ghosts);
+	al_destroy_bitmap(btnInputBox.default_img);
+	al_destroy_bitmap(btnInputBox.hovered_img);
+	al_destroy_bitmap(btnInputNameOK.default_img);
+	al_destroy_bitmap(btnInputNameOK.hovered_img);
+	al_destroy_bitmap(btnInputNameCancel.default_img);
+	al_destroy_bitmap(btnInputNameCancel.hovered_img);
 }
 
 static void on_key_down(int key_code) {

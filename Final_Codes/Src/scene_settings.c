@@ -97,6 +97,15 @@ static void on_mouse_down() {
 		game_change_scene(scene_leaderboard_create());
 }
 
+static void destroy() {
+	al_destroy_bitmap(btnCustomKeys.default_img);
+	al_destroy_bitmap(btnCustomKeys.hovered_img);
+	al_destroy_bitmap(btnPvPSelect.default_img);
+	al_destroy_bitmap(btnPvPSelect.hovered_img);
+	al_destroy_bitmap(btnLeaderboard.default_img);
+	al_destroy_bitmap(btnLeaderboard.hovered_img);
+}
+
 // The only function that is shared across files.
 Scene scene_settings_create(void) {
 	Scene scene;
@@ -107,6 +116,7 @@ Scene scene_settings_create(void) {
 	scene.on_key_down = &on_key_down;
 	scene.on_mouse_move = &on_mouse_move;
 	scene.on_mouse_down = &on_mouse_down;
+	scene.destroy = &destroy;
 
 	// TODO-IF: Register more event callback functions such as keyboard, mouse, ...
 	game_log("Settings scene created");
