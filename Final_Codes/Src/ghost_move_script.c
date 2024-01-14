@@ -152,6 +152,38 @@ static void ghost_move_script_FLEE(Ghost* ghost, Map* M, const Pacman * const pa
 	}
 }
 
+
+static void ghost_move_script_CONTROLLED(Ghost* ghost, Map* M) {
+	ghost_NextMove(ghost, ghost->objData.preMove);
+	return;
+	Directions counter_one = RIGHT;
+	switch(ghost->objData.preMove) {
+		case RIGHT:
+			counter_one = LEFT;
+			break;
+		case LEFT:
+			counter_one = RIGHT;
+			break;
+		case UP:
+			counter_one = DOWN;
+			break;
+		case DOWN:
+			counter_one = UP;
+			break;
+	}
+
+	static Directions proba[4]; // possible movement
+	int cnt = 0;
+	for (Directions i = 1; i <= 4; i++)
+		if (i != counter_one && ghost_movable(ghost, M, i, 1)) 	proba[cnt++] = i;
+	if (cnt >= 1) {
+		ghost_NextMove(ghost, proba[generateRandomNumber(0, cnt)]);
+	}
+	else { // for the dead end case
+		ghost_NextMove(ghost, counter_one);
+	}
+}
+
 void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman) {
 	if (!movetime(ghost->speed))
 		return;
@@ -162,8 +194,10 @@ void ghost_move_script_random(Ghost* ghost, Map* M, Pacman* pacman) {
 				ghost->status = GO_OUT;
 			break;
 		case FREEDOM:
-			if (!ghost->controlled)
+			if (!PvP)
 				ghost_move_script_FREEDOM_random(ghost, M);
+			else if (!ghost->controlled)
+				ghost_move_script_CONTROLLED(ghost, M);
 			break;
 		case GO_OUT:
 			ghost_move_script_GO_OUT(ghost, M);
@@ -223,7 +257,7 @@ void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman) {
 				ghost->status = GO_OUT;
 			break;
 		case FREEDOM: 
-			if (!ghost->controlled) {
+			if (!PvP) {
 				if (generateRandomNumber(0, 1) == 0) { // 50% 機率選擇最短路徑
 					ghost_move_script_FREEDOM_shortest_path(ghost, M, pacman);
 				} 
@@ -231,6 +265,8 @@ void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman) {
 					ghost_move_script_FREEDOM_random(ghost, M);
 				}
 			}
+			else if (!ghost->controlled)
+				ghost_move_script_CONTROLLED(ghost, M);
 			break;
 		case GO_OUT:
 			ghost_move_script_GO_OUT(ghost, M);
@@ -277,31 +313,3 @@ void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman) {
 		ghost->objData.moveCD = GAME_TICK_CD;
 }
 
-static void ghost_move_script_CONTROLLED_random(Ghost* ghost, Map* M) {
-	Directions counter_one = RIGHT;
-	switch(ghost->objData.preMove) {
-		case RIGHT:
-			counter_one = LEFT;
-			break;
-		case LEFT:
-			counter_one = RIGHT;
-			break;
-		case UP:
-			counter_one = DOWN;
-			break;
-		case DOWN:
-			counter_one = UP;
-			break;
-	}
-
-	static Directions proba[4]; // possible movement
-	int cnt = 0;
-	for (Directions i = 1; i <= 4; i++)
-		if (i != counter_one && ghost_movable(ghost, M, i, 1)) 	proba[cnt++] = i;
-	if (cnt >= 1) {
-		ghost_NextMove(ghost, proba[generateRandomNumber(0, cnt)]);
-	}
-	else { // for the dead end case
-		ghost_NextMove(ghost, counter_one);
-	}
-}
