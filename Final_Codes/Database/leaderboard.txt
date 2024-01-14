@@ -10,3 +10,5 @@ Daniel 200
 Daniel 200
 Koying 300
 Koying 400
+szc 10000KOYING 180
+WEAKOYING 330

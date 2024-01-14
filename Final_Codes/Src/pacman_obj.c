@@ -67,6 +67,7 @@ static bool pacman_movable(const Pacman* pacman, const Map* M, Directions target
 Pacman* pacman_create() {
 	// Allocate dynamic memory for pman pointer;
 	Pacman* pman = (Pacman*)malloc(sizeof(Pacman));
+	first_frame = true;
 	if (!pman)
 		return NULL;
 	pman->objData.moveCD = 0;
@@ -220,7 +221,8 @@ void pacman_eatItem(Pacman* pacman, const char Item) {
 	case '.':
 		stop_bgm(PACMAN_MOVESOUND_ID);
 		PACMAN_MOVESOUND_ID = play_audio(PACMAN_MOVESOUND, effect_volume);
-		game_update_scoreboard(10);
+		if (!game_over)
+			game_update_scoreboard(10);
 		break;
 	// TODO-GC-PB: set pacman powerUp mode (done)
 	case 'P':

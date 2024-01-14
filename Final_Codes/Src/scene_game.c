@@ -10,6 +10,7 @@
 #include "pacman_obj.h"
 #include "ghost.h"
 #include "map.h"
+#include "scene_menu_object.h"
 
 
 // TODO-HACKATHON 2-0: Create one ghost (done)
@@ -36,6 +37,10 @@ static Pacman* pman;
 static Map* basic_map;
 static Ghost** ghosts;
 int controlling_ghost = 0;
+bool need_input_name = false;
+Button btnInputBox, btnInputNameOK, btnInputNameCancel;
+char input_name[25] = "";
+int input_size = 0;
 
 /* Declare static function prototypes */
 static void init(void);
@@ -53,6 +58,8 @@ static void draw_hitboxes(void);
 
 static void init(void) {
 	game_over = false;
+	input_name[0] = '\0';
+	input_size = 0;
 	game_main_Score = 0;
 	// create map
 	// basic_map = create_map(NULL);
@@ -95,6 +102,10 @@ static void init(void) {
 	if (PvP) {
 		ghosts[0]->controlled = true;
 	}
+
+	btnInputBox = button_create(SCREEN_W / 2 - 220, SCREEN_H / 2 - 30, 440, 40, "./Assets/frame1.png", "./Assets/frame2.png");
+	btnInputNameOK = button_create(SCREEN_W / 2 - 220, SCREEN_H / 2 + 60, 200, 40, "./Assets/frame1.png", "./Assets/frame2.png");
+	btnInputNameCancel = button_create(SCREEN_W / 2 + 20, SCREEN_H / 2 + 60, 200, 40, "./Assets/frame1.png", "./Assets/frame2.png");
 	return ;
 }
 
@@ -217,12 +228,22 @@ static void update(void) {
 
 		if (al_get_timer_count(pman->death_anim_counter) >= 24) {
 			al_stop_timer(pman->death_anim_counter);
-			al_rest(1.0);
+			// al_rest(0.3);
+
+			// TODO-Advance: 輸入名字
+			need_input_name = true;
+			game_over = false;
+			return;
+
+
 			game_change_scene(scene_menu_create());
 			return;
 		}
 		return;
 	}
+
+	if (need_input_name)
+		return;
 
 	step();
 	checkItem();
@@ -285,21 +306,45 @@ static void draw(void) {
 
 	draw_map(basic_map);
 
+	// TODO 實作輸入名字
+	if (need_input_name) {
+		al_draw_scaled_bitmap(al_load_bitmap("Assets/black.png"), 0, 0, 60, 60, SCREEN_W / 2 - 300, SCREEN_H / 2 - 150, 600, 300, 0);
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			SCREEN_W / 2, SCREEN_H / 2 - 100, ALLEGRO_ALIGN_CENTER, "Please input your name");
+
+		drawButton(btnInputBox);
+		drawButton(btnInputNameOK);
+		drawButton(btnInputNameCancel);
+
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			SCREEN_W / 2 - 190, SCREEN_H / 2 - 20, ALLEGRO_ALIGN_LEFT, input_name);
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			SCREEN_W / 2 - 120, SCREEN_H / 2 + 70, ALLEGRO_ALIGN_CENTER, "OK");
+		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+			SCREEN_W / 2 + 120, SCREEN_H / 2 + 70, ALLEGRO_ALIGN_CENTER, "CANCEL");
+
+		return;
+	}
+
+
 	pacman_draw(pman);
 	if (game_over)
 		return;
-	// no drawing below when game over
-	for (int i = 0; i < GHOST_NUM; i++) {
-		ghost_draw(ghosts[i]);
-		char id[2] = "1";
-		id[0] += i;
-		al_draw_text(menuFont, al_map_rgb(255, 255, 0),
-			290 + 100 * i, 20, ALLEGRO_ALIGN_CENTER, id);
-		al_draw_scaled_bitmap(ghosts[i]->move_sprite, 0, 0, 
-			16, 16, 300 + 100 * i, 20, 30, 30, 0);
 
-		if (i == controlling_ghost) {
-			al_draw_rectangle(280 + 100 * i, 20, 290 + 100 * i + 40, 20 + 30, al_map_rgb(255, 255, 0), 2);
+	// no drawing below when game over
+	if (PvP) {
+		for (int i = 0; i < GHOST_NUM; i++) {
+			ghost_draw(ghosts[i]);
+			char id[2] = "1";
+			id[0] += i;
+			al_draw_text(menuFont, al_map_rgb(255, 255, 0),
+				290 + 100 * i, 20, ALLEGRO_ALIGN_CENTER, id);
+			al_draw_scaled_bitmap(ghosts[i]->move_sprite, 0, 0, 
+				16, 16, 300 + 100 * i, 20, 30, 30, 0);
+
+			if (i == controlling_ghost) {
+				al_draw_rectangle(280 + 100 * i, 20, 290 + 100 * i + 40, 20 + 30, al_map_rgb(255, 255, 0), 2);
+			}
 		}
 	}
 	
@@ -361,7 +406,9 @@ static void on_key_down(int key_code) {
 	{
 		// TODO-HACKATHON 1-1: Use allegro pre-defined enum ALLEGRO_KEY_<KEYNAME> to controll pacman movement
 		// we provided you a function `pacman_NextMove` to set the pacman's next move direction.
-		
+		case ALLEGRO_KEY_ESCAPE:
+			game_change_scene(scene_menu_create());
+			return;
 		case ALLEGRO_KEY_W:
 			pacman_NextMove(pman, 1);
 			break;
@@ -427,7 +474,6 @@ static void on_key_down(int key_code) {
 		case ALLEGRO_KEY_G:
 			debug_mode = !debug_mode;
 			break;
-		
 		default:
 		break;
 	}
@@ -474,12 +520,52 @@ static void on_key_down(int key_code) {
 				break;
 		}
 	}
+
+	if (need_input_name) {
+		if (key_code >= ALLEGRO_KEY_A && key_code <= ALLEGRO_KEY_Z && input_size < 20) {
+			input_name[input_size++] = key_code - ALLEGRO_KEY_A + 'A';
+			input_name[input_size] = '\0';
+		}
+		else if (key_code >= ALLEGRO_KEY_0 && key_code <= ALLEGRO_KEY_9 && input_size < 20) {
+			input_name[input_size++] = key_code - ALLEGRO_KEY_0 + '0';
+			input_name[input_size] = '\0';
+		}
+		else if (key_code == ALLEGRO_KEY_SPACE && input_size < 20) {
+			input_name[input_size++] = ' ';
+			input_name[input_size] = '\0';
+		}
+		else if (key_code == ALLEGRO_KEY_BACKSPACE && input_size > 0) {
+			input_name[--input_size] = '\0';
+		}
+	}
 }
 
 static void on_mouse_down(int btn, int x, int y, int dz) {
+	if (need_input_name) {
+		if (btnInputNameOK.hovered) {
+			need_input_name = false;
+			// write name and score to leaderboard.txt
 
-	// nothing here
+			FILE* fp = fopen("Database/leaderboard.txt", "a");
+			if (!fp) {
+				game_log("Error on open leaderboard.txt\n");
+				return;
+			}
+			fprintf(fp, "%s %d\n", input_name, game_main_Score);
+			fclose(fp);
 
+			game_change_scene(scene_menu_create());
+		}
+		else if (btnInputNameCancel.hovered) {
+			need_input_name = false;
+			game_change_scene(scene_menu_create());
+		}
+	}
+}
+
+static void on_mouse_move(int a, int mouse_x, int mouse_y, int f) {
+	btnInputNameOK.hovered = buttonHover(btnInputNameOK, mouse_x, mouse_y);
+	btnInputNameCancel.hovered = buttonHover(btnInputNameCancel, mouse_x, mouse_y);
 }
 
 static void render_init_screen(void) {
@@ -518,6 +604,7 @@ Scene scene_main_create(void) {
 	scene.destroy = &destroy;
 	scene.on_key_down = &on_key_down;
 	scene.on_mouse_down = &on_mouse_down;
+	scene.on_mouse_move = &on_mouse_move;
 	// TODO-IF: Register more event callback functions such as keyboard, mouse, ...
 	game_log("Start scene created");
 	return scene;

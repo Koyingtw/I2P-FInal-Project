@@ -32,7 +32,7 @@ bool ghost_first_frame = true;
 const int ghost_speed_table[7] = {2, 2, 2, 4, 1, 0, 2};
 
 Ghost* ghost_create(int flag) {
-
+	ghost_first_frame = true;
 	// NOTODO
 	Ghost* ghost = (Ghost*)malloc(sizeof(Ghost));
 	if (!ghost)
