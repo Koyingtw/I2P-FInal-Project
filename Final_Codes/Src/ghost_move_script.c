@@ -275,6 +275,7 @@ void ghost_move_script_shortest_path(Ghost* ghost, Map* M, Pacman* pacman) {
 			ghost_move_script_GO_IN(ghost, M);
 			if (M->map[ghost->objData.Coord.y][ghost->objData.Coord.x] == 'B' && !ghost_go_back) {
 				ghost->status = BLOCKED;
+				ghost->objData.facing = UP;
 				ghost->speed = 2; // reset the speed after back to the room.
 				ghost->go_in_time = al_get_timer_count(game_tick_timer); 
 			}

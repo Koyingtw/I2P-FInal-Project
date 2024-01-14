@@ -131,6 +131,7 @@ static void checkItem(void) {
 	case '.':
 		pacman_eatItem(pman, '.');
 		eat = true;
+		basic_map->beansCount--;
 		break;
 	case 'P':
 		// TODO-GC-PB: ease power bean (done)
@@ -161,6 +162,12 @@ static void checkItem(void) {
 		basic_map->map[Grid_y][Grid_x] = ' ';
 }
 static void status_update(void) {
+	if (basic_map->beansCount == 0) {
+		game_over = true;
+		return;
+	}
+
+
 	// TODO-PB: check powerUp duration (done)
 	if (pman->powerUp)
 	{
